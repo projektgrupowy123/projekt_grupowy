@@ -36,6 +36,9 @@
             System.Windows.Forms.Label brandLabel;
             System.Windows.Forms.Label modelLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.Client_groupBox = new System.Windows.Forms.GroupBox();
             this.searchSurnameToolStrip = new System.Windows.Forms.ToolStrip();
             this.surnameToolStripLabel = new System.Windows.Forms.ToolStripLabel();
@@ -71,6 +74,15 @@
             this.modelTextBox = new System.Windows.Forms.TextBox();
             this.tableTableAdapter = new projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter();
             this.tableAdapterManager = new projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.connect_button = new System.Windows.Forms.Button();
+            this.ports_comboBox = new System.Windows.Forms.ComboBox();
+            this.findPorts_button = new System.Windows.Forms.Button();
+            this.serialPort = new System.IO.Ports.SerialPort(this.components);
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.plot_button = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             customerIDLabel = new System.Windows.Forms.Label();
             nameLabel = new System.Windows.Forms.Label();
             surnameLabel = new System.Windows.Forms.Label();
@@ -84,6 +96,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.databaseDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tableBindingNavigator)).BeginInit();
             this.tableBindingNavigator.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // customerIDLabel
@@ -160,7 +175,7 @@
             this.Client_groupBox.ForeColor = System.Drawing.Color.MidnightBlue;
             this.Client_groupBox.Location = new System.Drawing.Point(24, 21);
             this.Client_groupBox.Name = "Client_groupBox";
-            this.Client_groupBox.Size = new System.Drawing.Size(593, 257);
+            this.Client_groupBox.Size = new System.Drawing.Size(571, 256);
             this.Client_groupBox.TabIndex = 0;
             this.Client_groupBox.TabStop = false;
             this.Client_groupBox.Text = "Client";
@@ -445,11 +460,104 @@
             this.tableAdapterManager.TableTableAdapter = this.tableTableAdapter;
             this.tableAdapterManager.UpdateOrder = projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.connect_button);
+            this.groupBox1.Controls.Add(this.ports_comboBox);
+            this.groupBox1.Controls.Add(this.findPorts_button);
+            this.groupBox1.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.groupBox1.Location = new System.Drawing.Point(29, 299);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(566, 59);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Connection";
+            // 
+            // connect_button
+            // 
+            this.connect_button.Location = new System.Drawing.Point(272, 26);
+            this.connect_button.Name = "connect_button";
+            this.connect_button.Size = new System.Drawing.Size(75, 23);
+            this.connect_button.TabIndex = 2;
+            this.connect_button.Text = "Connect";
+            this.connect_button.UseVisualStyleBackColor = true;
+            this.connect_button.Click += new System.EventHandler(this.connect_button_Click);
+            // 
+            // ports_comboBox
+            // 
+            this.ports_comboBox.FormattingEnabled = true;
+            this.ports_comboBox.Location = new System.Drawing.Point(17, 26);
+            this.ports_comboBox.Name = "ports_comboBox";
+            this.ports_comboBox.Size = new System.Drawing.Size(108, 21);
+            this.ports_comboBox.TabIndex = 1;
+            // 
+            // findPorts_button
+            // 
+            this.findPorts_button.Location = new System.Drawing.Point(143, 26);
+            this.findPorts_button.Name = "findPorts_button";
+            this.findPorts_button.Size = new System.Drawing.Size(108, 23);
+            this.findPorts_button.TabIndex = 0;
+            this.findPorts_button.Text = "Find available ports";
+            this.findPorts_button.UseVisualStyleBackColor = true;
+            this.findPorts_button.Click += new System.EventHandler(this.findPorts_button_Click);
+            // 
+            // serialPort
+            // 
+            this.serialPort.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort_DataReceived);
+            // 
+            // chart1
+            // 
+            chartArea1.AxisX.Title = "Time [ms]";
+            chartArea1.AxisY.Title = "temp [°C]";
+            chartArea1.BackSecondaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
+            this.chart1.Location = new System.Drawing.Point(89, 24);
+            this.chart1.Name = "chart1";
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
+            this.chart1.Size = new System.Drawing.Size(378, 300);
+            this.chart1.TabIndex = 2;
+            this.chart1.Text = "chart1";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.plot_button);
+            this.groupBox2.Controls.Add(this.chart1);
+            this.groupBox2.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.groupBox2.Location = new System.Drawing.Point(29, 364);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(566, 377);
+            this.groupBox2.TabIndex = 3;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "groupBox2";
+            // 
+            // plot_button
+            // 
+            this.plot_button.Location = new System.Drawing.Point(224, 337);
+            this.plot_button.Name = "plot_button";
+            this.plot_button.Size = new System.Drawing.Size(75, 23);
+            this.plot_button.TabIndex = 4;
+            this.plot_button.Text = "Start";
+            this.plot_button.UseVisualStyleBackColor = true;
+            this.plot_button.Click += new System.EventHandler(this.plot_button_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(617, 489);
+            this.ClientSize = new System.Drawing.Size(617, 753);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Client_groupBox);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -464,6 +572,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.tableBindingNavigator)).EndInit();
             this.tableBindingNavigator.ResumeLayout(false);
             this.tableBindingNavigator.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -505,6 +616,15 @@
         private System.Windows.Forms.ToolStripLabel surnameToolStripLabel;
         private System.Windows.Forms.ToolStripTextBox surnameToolStripTextBox;
         private System.Windows.Forms.ToolStripButton searchSurnameToolStripButton;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button connect_button;
+        private System.Windows.Forms.ComboBox ports_comboBox;
+        private System.Windows.Forms.Button findPorts_button;
+        private System.IO.Ports.SerialPort serialPort;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button plot_button;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
