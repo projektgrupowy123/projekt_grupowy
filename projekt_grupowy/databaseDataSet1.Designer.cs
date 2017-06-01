@@ -962,9 +962,9 @@ namespace projekt_grupowy.databaseDataSet1TableAdapters {
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[Table] ([CustomerID], [Name], [Surname], [Phone], [Brand], [Mo" +
-                "del]) VALUES (@CustomerID, @Name, @Surname, @Phone, @Brand, @Model);\r\nSELECT Cus" +
-                "tomerID, Name, Surname, Phone, Brand, Model FROM [Table] WHERE (CustomerID = @Cu" +
-                "stomerID)";
+                "del]) VALUES (@CustomerID, @Name, @Surname, @Phone, @Brand, @Model);\nSELECT Cust" +
+                "omerID, Name, Surname, Phone, Brand, Model FROM [Table] WHERE (CustomerID = @Cus" +
+                "tomerID)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CustomerID", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CustomerID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Name", global::System.Data.SqlDbType.NChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Name", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));

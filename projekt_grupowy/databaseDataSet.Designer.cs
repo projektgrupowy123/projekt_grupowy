@@ -962,9 +962,9 @@ namespace projekt_grupowy.databaseDataSetTableAdapters {
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[Table] ([CustomerID], [Name], [Surname], [Phone], [Brand], [Mo" +
-                "del]) VALUES (@CustomerID, @Name, @Surname, @Phone, @Brand, @Model);\r\nSELECT Cus" +
-                "tomerID, Name, Surname, Phone, Brand, Model FROM [Table] WHERE (CustomerID = @Cu" +
-                "stomerID)";
+                "del]) VALUES (@CustomerID, @Name, @Surname, @Phone, @Brand, @Model);\nSELECT Cust" +
+                "omerID, Name, Surname, Phone, Brand, Model FROM [Table] WHERE (CustomerID = @Cus" +
+                "tomerID)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CustomerID", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CustomerID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Name", global::System.Data.SqlDbType.NChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Name", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -1013,8 +1013,8 @@ SELECT CustomerID, Name, Surname, Phone, Brand, Model FROM [Table] WHERE (Custom
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[1].Connection = this.Connection;
-            this._commandCollection[1].CommandText = "SELECT        CustomerID, Name, Surname, Phone, Brand, Model\r\nFROM            [Ta" +
-                "ble]\r\nWHERE        (Surname LIKE @Surname + N\'%\')";
+            this._commandCollection[1].CommandText = "SELECT        CustomerID, Name, Surname, Phone, Brand, Model\nFROM            [Tab" +
+                "le]\nWHERE        (Surname LIKE @Surname + N\'%\')";
             this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Surname", global::System.Data.SqlDbType.NChar, 15, global::System.Data.ParameterDirection.Input, 0, 0, "Surname", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
