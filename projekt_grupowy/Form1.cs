@@ -134,15 +134,27 @@ namespace projekt_grupowy
 
         private void plot_button_Click(object sender, EventArgs e)
         {
-            if (timer1.Enabled)
+            if (serialPort.IsOpen)
             {
-                timer1.Enabled = false;
-                plot_button.Text = "PLOT";
+                if (timer1.Enabled)
+                {
+                    timer1.Enabled = false;
+                    plot_button.Text = "PLOT";
+                }
+                else {
+                    timer1.Enabled = true;
+                    plot_button.Text = "STOP";
+                }
             }
             else {
-                timer1.Enabled = true;
-                plot_button.Text = "STOP";
+
+                MessageBox.Show("You have to connect device first!");
+
+                
+
             }
+            
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
