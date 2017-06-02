@@ -18,6 +18,8 @@ namespace projekt_grupowy
         int[] X_Array = new int[20];
         char[] buff = new char[1];
 
+        double meanTemp = 0;
+        double sumTemp = 0;
         public Form1()
         {
             InitializeComponent();
@@ -45,6 +47,8 @@ namespace projekt_grupowy
             ports_comboBox.Items.AddRange(availablePorts);
 
         }
+
+
 
         private void connect_button_Click(object sender, EventArgs e)
         {
@@ -179,7 +183,17 @@ namespace projekt_grupowy
             chart1.Series["Series1"].Points.DataBindXY(X_Array, temperature);
         }
 
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 20; i++)
+            {
+                meanTemp += temperature[i];
+            }
+            meanTemp /= 20;
+           textBox2.Text = meanTemp.ToString();
+        }
 
+     
     }
 }
 		
