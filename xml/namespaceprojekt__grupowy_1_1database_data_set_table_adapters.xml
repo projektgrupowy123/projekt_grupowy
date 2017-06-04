@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespaceprojekt__grupowy_1_1database_data_set_table_adapters" kind="namespace" language="C#">
+    <compoundname>projekt_grupowy::databaseDataSetTableAdapters</compoundname>
+    <innerclass refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager" prot="public">projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</innerclass>
+    <innerclass refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter" prot="public">projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="816" column="1"/>
+  </compounddef>
+</doxygen>

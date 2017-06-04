@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager" kind="class" language="C#" prot="public">
+    <compoundname>projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Component</basecompoundref>
+    <innerclass refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer" prot="private">projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager::SelfReferenceComparer</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a28f63071f27298d15ff7cdcac275d946" prot="public" static="no">
+        <name>UpdateOrderOption</name>
+        <enumvalue id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a28f63071f27298d15ff7cdcac275d946a27b77cb15d3da7ded0250d0001bc6755" prot="public">
+          <name>InsertUpdateDelete</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a28f63071f27298d15ff7cdcac275d946a894fcc001e51f673d3fb5f3096473dd8" prot="public">
+          <name>UpdateInsertDelete</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Update Order Option /summary&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1633" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1633" bodyend="1638"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1ac220d5dfde5cb70aa9952511c4b0ca45" prot="private" static="no" mutable="no">
+        <type><ref refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a28f63071f27298d15ff7cdcac275d946" kindref="member">UpdateOrderOption</ref></type>
+        <definition>UpdateOrderOption projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager._updateOrder</definition>
+        <argsstring></argsstring>
+        <name>_updateOrder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1320" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a0e835af059b99254c2dd9369800be977" prot="private" static="no" mutable="no">
+        <type><ref refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter" kindref="compound">TableTableAdapter</ref></type>
+        <definition>TableTableAdapter projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager._tableTableAdapter</definition>
+        <argsstring></argsstring>
+        <name>_tableTableAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1322" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a885d556f7e1370fdb80f0503ee322726" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager._backupDataSetBeforeUpdate</definition>
+        <argsstring></argsstring>
+        <name>_backupDataSetBeforeUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1324" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a112db4cf5282c710755df4a39b0b0bf0" prot="private" static="no" mutable="no">
+        <type>global::System.Data.IDbConnection</type>
+        <definition>global::System.Data.IDbConnection projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager._connection</definition>
+        <argsstring></argsstring>
+        <name>_connection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1326" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1326" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1ad6758d49bc505fa800f84cf129710a38" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a28f63071f27298d15ff7cdcac275d946" kindref="member">UpdateOrderOption</ref></type>
+        <definition>UpdateOrderOption projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager.UpdateOrder</definition>
+        <argsstring></argsstring>
+        <name>UpdateOrder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1330" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a1799c86b797bb2c87de60272743c9c2d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter" kindref="compound">TableTableAdapter</ref></type>
+        <definition>TableTableAdapter projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager.TableTableAdapter</definition>
+        <argsstring></argsstring>
+        <name>TableTableAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1344" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a28e455cd91355446578dafbc850d4ad2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager.BackupDataSetBeforeUpdate</definition>
+        <argsstring></argsstring>
+        <name>BackupDataSetBeforeUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1355" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a85f5bfe3cbe25d5acc91a4929a815b12" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.IDbConnection</type>
+        <definition>global::System.Data.IDbConnection projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager.Connection</definition>
+        <argsstring></argsstring>
+        <name>Connection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1367" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1367" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a4077699bf3ac701107fa0c4f3c24fbb4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager.TableAdapterInstanceCount</definition>
+        <argsstring></argsstring>
+        <name>TableAdapterInstanceCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1386" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1386" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a77b6795abbfb00608bbb167d18f767bb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows</definition>
+        <argsstring>(databaseDataSet dataSet, global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt; allChangedRows, global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt; allAddedRows)</argsstring>
+        <name>UpdateUpdatedRows</name>
+        <param>
+          <type><ref refid="classprojekt__grupowy_1_1database_data_set" kindref="compound">databaseDataSet</ref></type>
+          <declname>dataSet</declname>
+        </param>
+        <param>
+          <type>global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt;</type>
+          <declname>allChangedRows</declname>
+        </param>
+        <param>
+          <type>global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt;</type>
+          <declname>allAddedRows</declname>
+        </param>
+        <briefdescription>
+<para>Update rows in top-down order. /summary&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1401" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1401" bodyend="1413"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1abcd630a87a061a34bbedff5ff2187362" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows</definition>
+        <argsstring>(databaseDataSet dataSet, global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt; allAddedRows)</argsstring>
+        <name>UpdateInsertedRows</name>
+        <param>
+          <type><ref refid="classprojekt__grupowy_1_1database_data_set" kindref="compound">databaseDataSet</ref></type>
+          <declname>dataSet</declname>
+        </param>
+        <param>
+          <type>global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt;</type>
+          <declname>allAddedRows</declname>
+        </param>
+        <briefdescription>
+<para>Insert rows in top-down order. /summary&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1420" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1420" bodyend="1431"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a7fc063d52b43843670a66a7dfd93ae1d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows</definition>
+        <argsstring>(databaseDataSet dataSet, global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt; allChangedRows)</argsstring>
+        <name>UpdateDeletedRows</name>
+        <param>
+          <type><ref refid="classprojekt__grupowy_1_1database_data_set" kindref="compound">databaseDataSet</ref></type>
+          <declname>dataSet</declname>
+        </param>
+        <param>
+          <type>global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt;</type>
+          <declname>allChangedRows</declname>
+        </param>
+        <briefdescription>
+<para>Delete rows in bottom-up order. /summary&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1438" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1438" bodyend="1449"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a318a94058904bc5115c534fa8e966a7c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Data.DataRow []</type>
+        <definition>global::System.Data.DataRow [] projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows</definition>
+        <argsstring>(global::System.Data.DataRow[] updatedRows, global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt; allAddedRows)</argsstring>
+        <name>GetRealUpdatedRows</name>
+        <param>
+          <type>global::System.Data.DataRow []</type>
+          <declname>updatedRows</declname>
+        </param>
+        <param>
+          <type>global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt;</type>
+          <declname>allAddedRows</declname>
+        </param>
+        <briefdescription>
+<para>Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first /summary&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1456" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1456" bodyend="1473"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1aeffb3289e6b09ed0725b06ba7dae5b52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager.UpdateAll</definition>
+        <argsstring>(databaseDataSet dataSet)</argsstring>
+        <name>UpdateAll</name>
+        <param>
+          <type><ref refid="classprojekt__grupowy_1_1database_data_set" kindref="compound">databaseDataSet</ref></type>
+          <declname>dataSet</declname>
+        </param>
+        <briefdescription>
+<para>Update all changes to the dataset. /summary&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1480" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1480" bodyend="1605"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a9b1c956b09f3a4bb72df5b7487361383" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager.SortSelfReferenceRows</definition>
+        <argsstring>(global::System.Data.DataRow[] rows, global::System.Data.DataRelation relation, bool childFirst)</argsstring>
+        <name>SortSelfReferenceRows</name>
+        <param>
+          <type>global::System.Data.DataRow []</type>
+          <declname>rows</declname>
+        </param>
+        <param>
+          <type>global::System.Data.DataRelation</type>
+          <declname>relation</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>childFirst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1609" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1609" bodyend="1611"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a22bf35dba90267bdad45f13f88a71da8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager.MatchTableAdapterConnection</definition>
+        <argsstring>(global::System.Data.IDbConnection inputConnection)</argsstring>
+        <name>MatchTableAdapterConnection</name>
+        <param>
+          <type>global::System.Data.IDbConnection</type>
+          <declname>inputConnection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1615" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1615" bodyend="1627"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager" kindref="compound">TableAdapterManager</ref> is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios /summary&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="30">
+        <label>projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager</label>
+        <link refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>global::SystemComponentModel::Component</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="32">
+        <label>projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager</label>
+        <link refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>global::SystemComponentModel::Component</label>
+      </node>
+    </collaborationgraph>
+    <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1318" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1318" bodyend="1735"/>
+    <listofallmembers>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a885d556f7e1370fdb80f0503ee322726" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</scope><name>_backupDataSetBeforeUpdate</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a112db4cf5282c710755df4a39b0b0bf0" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</scope><name>_connection</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a0e835af059b99254c2dd9369800be977" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</scope><name>_tableTableAdapter</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1ac220d5dfde5cb70aa9952511c4b0ca45" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</scope><name>_updateOrder</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a28e455cd91355446578dafbc850d4ad2" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</scope><name>BackupDataSetBeforeUpdate</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a85f5bfe3cbe25d5acc91a4929a815b12" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</scope><name>Connection</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a318a94058904bc5115c534fa8e966a7c" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</scope><name>GetRealUpdatedRows</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a22bf35dba90267bdad45f13f88a71da8" prot="protected" virt="virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</scope><name>MatchTableAdapterConnection</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a9b1c956b09f3a4bb72df5b7487361383" prot="protected" virt="virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</scope><name>SortSelfReferenceRows</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a4077699bf3ac701107fa0c4f3c24fbb4" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</scope><name>TableAdapterInstanceCount</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a1799c86b797bb2c87de60272743c9c2d" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</scope><name>TableTableAdapter</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1aeffb3289e6b09ed0725b06ba7dae5b52" prot="public" virt="virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</scope><name>UpdateAll</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a7fc063d52b43843670a66a7dfd93ae1d" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</scope><name>UpdateDeletedRows</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1abcd630a87a061a34bbedff5ff2187362" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</scope><name>UpdateInsertedRows</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1ad6758d49bc505fa800f84cf129710a38" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</scope><name>UpdateOrder</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a28f63071f27298d15ff7cdcac275d946" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</scope><name>UpdateOrderOption</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1a77b6795abbfb00608bbb167d18f767bb" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableAdapterManager</scope><name>UpdateUpdatedRows</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classprojekt__grupowy_1_1database_data_set1" kind="class" language="C#" prot="public">
+    <compoundname>projekt_grupowy::databaseDataSet1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DataSet</basecompoundref>
+    <innerclass refid="classprojekt__grupowy_1_1database_data_set1_1_1_table_data_table" prot="public">projekt_grupowy::databaseDataSet1::TableDataTable</innerclass>
+    <innerclass refid="classprojekt__grupowy_1_1database_data_set1_1_1_table_row" prot="public">projekt_grupowy::databaseDataSet1::TableRow</innerclass>
+    <innerclass refid="classprojekt__grupowy_1_1database_data_set1_1_1_table_row_change_event" prot="public">projekt_grupowy::databaseDataSet1::TableRowChangeEvent</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1database_data_set1_1af84bfea264d1c8a4a754ce64af037770" prot="private" static="no" mutable="no">
+        <type><ref refid="classprojekt__grupowy_1_1database_data_set1_1_1_table_data_table" kindref="compound">TableDataTable</ref></type>
+        <definition>TableDataTable projekt_grupowy.databaseDataSet1.tableTable</definition>
+        <argsstring></argsstring>
+        <name>tableTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="27" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1database_data_set1_1a816ab2c64be02dd369b15f040898fee7" prot="private" static="no" mutable="no">
+        <type>global::System.Data.SchemaSerializationMode</type>
+        <definition>global::System.Data.SchemaSerializationMode projekt_grupowy.databaseDataSet1._schemaSerializationMode</definition>
+        <argsstring></argsstring>
+        <name>_schemaSerializationMode</name>
+        <initializer>= global::System.Data.SchemaSerializationMode.IncludeSchema</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="29" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set1_1af278335abbd6be2ee023ce745714cacf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="classprojekt__grupowy_1_1database_data_set1_1_1_table_data_table" kindref="compound">TableDataTable</ref></type>
+        <definition>TableDataTable projekt_grupowy.databaseDataSet1.Table</definition>
+        <argsstring></argsstring>
+        <name>Table</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="82" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set1_1addafd3689f4e85dee9ce7c375a5d5a5e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>override global::System.Data.SchemaSerializationMode</type>
+        <definition>override global::System.Data.SchemaSerializationMode projekt_grupowy.databaseDataSet1.SchemaSerializationMode</definition>
+        <argsstring></argsstring>
+        <name>SchemaSerializationMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="92" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set1_1a48844d0d0248c84a68361dba6a3405c0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new global::System.Data.DataTableCollection</type>
+        <definition>new global::System.Data.DataTableCollection projekt_grupowy.databaseDataSet1.Tables</definition>
+        <argsstring></argsstring>
+        <name>Tables</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="104" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set1_1afba38adb4b0c9b2981f07f815c1ff029" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new global::System.Data.DataRelationCollection</type>
+        <definition>new global::System.Data.DataRelationCollection projekt_grupowy.databaseDataSet1.Relations</definition>
+        <argsstring></argsstring>
+        <name>Relations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="113" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set1_1ace7d85b108a33b9b9f0460f6202f1d61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projekt_grupowy.databaseDataSet1.databaseDataSet1</definition>
+        <argsstring>()</argsstring>
+        <name>databaseDataSet1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="33" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="33" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set1_1a18da6f77db71fac50fdeb88cd9847234" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override global::System.Data.DataSet</type>
+        <definition>override global::System.Data.DataSet projekt_grupowy.databaseDataSet1.Clone</definition>
+        <argsstring>()</argsstring>
+        <name>Clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="129" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="129" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set1_1a10d76c3b643a3179cf094e6c4db20d66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void projekt_grupowy.databaseDataSet1.TableRowChangeEventHandler</definition>
+        <argsstring>(object sender, TableRowChangeEvent e)</argsstring>
+        <name>TableRowChangeEventHandler</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="classprojekt__grupowy_1_1database_data_set1_1_1_table_row_change_event" kindref="compound">TableRowChangeEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="273" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set1_1a23b543373c1ac8f70dae82cb92a3cbbf" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projekt_grupowy.databaseDataSet1.databaseDataSet1</definition>
+        <argsstring>(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context)</argsstring>
+        <name>databaseDataSet1</name>
+        <param>
+          <type>global::System.Runtime.Serialization.SerializationInfo</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>global::System.Runtime.Serialization.StreamingContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="44" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="44" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set1_1abe6ee517fcdcf64c615aaf27c41b3765" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void projekt_grupowy.databaseDataSet1.InitializeDerivedDataSet</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeDerivedDataSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="121" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="121" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set1_1acf83edfed0f908344cc99922e3862e73" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool projekt_grupowy.databaseDataSet1.ShouldSerializeTables</definition>
+        <argsstring>()</argsstring>
+        <name>ShouldSerializeTables</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="138" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="138" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set1_1a1c99be96ad36bfb146f00c6a31410188" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool projekt_grupowy.databaseDataSet1.ShouldSerializeRelations</definition>
+        <argsstring>()</argsstring>
+        <name>ShouldSerializeRelations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="144" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="144" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set1_1aee2606d23b133be281612ca5f31b7505" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void projekt_grupowy.databaseDataSet1.ReadXmlSerializable</definition>
+        <argsstring>(global::System.Xml.XmlReader reader)</argsstring>
+        <name>ReadXmlSerializable</name>
+        <param>
+          <type>global::System.Xml.XmlReader</type>
+          <declname>reader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="150" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="150" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set1_1a0a545d4d106212f1fd8a70a205d3ea72" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override global::System.Xml.Schema.XmlSchema</type>
+        <definition>override global::System.Xml.Schema.XmlSchema projekt_grupowy.databaseDataSet1.GetSchemaSerializable</definition>
+        <argsstring>()</argsstring>
+        <name>GetSchemaSerializable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="175" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="175" bodyend="180"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set1_1a636510be348ba6d7b7c6735999cd8626" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.databaseDataSet1.InitVars</definition>
+        <argsstring>()</argsstring>
+        <name>InitVars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="184" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="184" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set1_1ad901f84e8f46070603d710720346f444" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.databaseDataSet1.InitVars</definition>
+        <argsstring>(bool initTable)</argsstring>
+        <name>InitVars</name>
+        <param>
+          <type>bool</type>
+          <declname>initTable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="190" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="190" bodyend="197"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set1_1ad6dbb200492035412a0394954cb2dbfa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.databaseDataSet1.InitClass</definition>
+        <argsstring>()</argsstring>
+        <name>InitClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="201" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="201" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set1_1ad9cc3cbbce27d6757ac2bfe1c5589b53" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool projekt_grupowy.databaseDataSet1.ShouldSerializeTable</definition>
+        <argsstring>()</argsstring>
+        <name>ShouldSerializeTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="213" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="213" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set1_1a6ad3eee3c982efb9529bd356d57c1dd3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.databaseDataSet1.SchemaChanged</definition>
+        <argsstring>(object sender, global::System.ComponentModel.CollectionChangeEventArgs e)</argsstring>
+        <name>SchemaChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>global::System.ComponentModel.CollectionChangeEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="219" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="219" bodyend="223"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set1_1abbc24ce53c73787e18955674655a00e9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Xml.Schema.XmlSchemaComplexType</type>
+        <definition>static global::System.Xml.Schema.XmlSchemaComplexType projekt_grupowy.databaseDataSet1.GetTypedDataSetSchema</definition>
+        <argsstring>(global::System.Xml.Schema.XmlSchemaSet xs)</argsstring>
+        <name>GetTypedDataSetSchema</name>
+        <param>
+          <type>global::System.Xml.Schema.XmlSchemaSet</type>
+          <declname>xs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="227" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="227" bodyend="270"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a strongly typed in-memory cache of data. /summary&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>projekt_grupowy.databaseDataSet1</label>
+        <link refid="classprojekt__grupowy_1_1database_data_set1"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>global::SystemData::DataSet</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>projekt_grupowy.databaseDataSet1</label>
+        <link refid="classprojekt__grupowy_1_1database_data_set1"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>global::SystemData::DataSet</label>
+      </node>
+    </collaborationgraph>
+    <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="25" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="25" bodyend="814"/>
+    <listofallmembers>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1a816ab2c64be02dd369b15f040898fee7" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>_schemaSerializationMode</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1a18da6f77db71fac50fdeb88cd9847234" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>Clone</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1ace7d85b108a33b9b9f0460f6202f1d61" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>databaseDataSet1</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1a23b543373c1ac8f70dae82cb92a3cbbf" prot="protected" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>databaseDataSet1</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1a0a545d4d106212f1fd8a70a205d3ea72" prot="protected" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>GetSchemaSerializable</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1abbc24ce53c73787e18955674655a00e9" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>GetTypedDataSetSchema</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1ad6dbb200492035412a0394954cb2dbfa" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>InitClass</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1abe6ee517fcdcf64c615aaf27c41b3765" prot="protected" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>InitializeDerivedDataSet</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1a636510be348ba6d7b7c6735999cd8626" prot="package" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>InitVars</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1ad901f84e8f46070603d710720346f444" prot="package" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>InitVars</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1aee2606d23b133be281612ca5f31b7505" prot="protected" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>ReadXmlSerializable</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1afba38adb4b0c9b2981f07f815c1ff029" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>Relations</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1a6ad3eee3c982efb9529bd356d57c1dd3" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>SchemaChanged</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1addafd3689f4e85dee9ce7c375a5d5a5e" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>SchemaSerializationMode</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1a1c99be96ad36bfb146f00c6a31410188" prot="protected" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>ShouldSerializeRelations</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1ad9cc3cbbce27d6757ac2bfe1c5589b53" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>ShouldSerializeTable</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1acf83edfed0f908344cc99922e3862e73" prot="protected" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>ShouldSerializeTables</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1af278335abbd6be2ee023ce745714cacf" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>Table</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1a10d76c3b643a3179cf094e6c4db20d66" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>TableRowChangeEventHandler</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1a48844d0d0248c84a68361dba6a3405c0" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>Tables</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_1af84bfea264d1c8a4a754ce64af037770" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1</scope><name>tableTable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

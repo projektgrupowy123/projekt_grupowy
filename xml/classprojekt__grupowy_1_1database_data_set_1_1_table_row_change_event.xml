@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_change_event" kind="class" language="C#" prot="public">
+    <compoundname>projekt_grupowy::databaseDataSet::TableRowChangeEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SystemEventArgs</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_change_event_1a0569fb5976fcc1344cd3fc9ba5d4d121" prot="private" static="no" mutable="no">
+        <type><ref refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row" kindref="compound">TableRow</ref></type>
+        <definition>TableRow projekt_grupowy.databaseDataSet.TableRowChangeEvent.eventRow</definition>
+        <argsstring></argsstring>
+        <name>eventRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="787" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="787" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_change_event_1a84aacec70055681bcb2a6409af9c8a13" prot="private" static="no" mutable="no">
+        <type>global::System.Data.DataRowAction</type>
+        <definition>global::System.Data.DataRowAction projekt_grupowy.databaseDataSet.TableRowChangeEvent.eventAction</definition>
+        <argsstring></argsstring>
+        <name>eventAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="789" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="789" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_change_event_1a6dce7b7206150eeea08aa491b409de26" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row" kindref="compound">TableRow</ref></type>
+        <definition>TableRow projekt_grupowy.databaseDataSet.TableRowChangeEvent.Row</definition>
+        <argsstring></argsstring>
+        <name>Row</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="800" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="800" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_change_event_1a0a349af0d99f4e443f4136e4d91e8d18" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.DataRowAction</type>
+        <definition>global::System.Data.DataRowAction projekt_grupowy.databaseDataSet.TableRowChangeEvent.Action</definition>
+        <argsstring></argsstring>
+        <name>Action</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="808" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="808" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_change_event_1aee93ee140809170f422c34832af17cb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projekt_grupowy.databaseDataSet.TableRowChangeEvent.TableRowChangeEvent</definition>
+        <argsstring>(TableRow row, global::System.Data.DataRowAction action)</argsstring>
+        <name>TableRowChangeEvent</name>
+        <param>
+          <type><ref refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row" kindref="compound">TableRow</ref></type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>global::System.Data.DataRowAction</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="793" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="793" bodyend="796"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Row event argument class /summary&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="50">
+        <label>projekt_grupowy.databaseDataSet.TableRowChangeEvent</label>
+        <link refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_change_event"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>global::SystemEventArgs</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="52">
+        <label>projekt_grupowy.databaseDataSet.TableRowChangeEvent</label>
+        <link refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_change_event"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>global::SystemEventArgs</label>
+      </node>
+    </collaborationgraph>
+    <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="785" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="785" bodyend="813"/>
+    <listofallmembers>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_change_event_1a0a349af0d99f4e443f4136e4d91e8d18" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRowChangeEvent</scope><name>Action</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_change_event_1a84aacec70055681bcb2a6409af9c8a13" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRowChangeEvent</scope><name>eventAction</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_change_event_1a0569fb5976fcc1344cd3fc9ba5d4d121" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRowChangeEvent</scope><name>eventRow</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_change_event_1a6dce7b7206150eeea08aa491b409de26" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRowChangeEvent</scope><name>Row</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_change_event_1aee93ee140809170f422c34832af17cb5" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRowChangeEvent</scope><name>TableRowChangeEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classprojekt__grupowy_1_1database_data_set_1_1_table_row" kind="class" language="C#" prot="public">
+    <compoundname>projekt_grupowy::databaseDataSet::TableRow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DataRow</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a100d262ba84c604b3e5450fb5158b991" prot="private" static="no" mutable="no">
+        <type><ref refid="classprojekt__grupowy_1_1database_data_set_1_1_table_data_table" kindref="compound">TableDataTable</ref></type>
+        <definition>TableDataTable projekt_grupowy.databaseDataSet.TableRow.tableTable</definition>
+        <argsstring></argsstring>
+        <name>tableTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="620" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="620" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1acca10b3fee85160e8b31dd4831b2e4aa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int projekt_grupowy.databaseDataSet.TableRow.CustomerID</definition>
+        <argsstring></argsstring>
+        <name>CustomerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="631" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="631" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a580e3324a8bf4643dd118da776260521" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string projekt_grupowy.databaseDataSet.TableRow.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="642" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="642" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a8e5f9e1d022e0c91568c8bdbd68de382" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string projekt_grupowy.databaseDataSet.TableRow.Surname</definition>
+        <argsstring></argsstring>
+        <name>Surname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="658" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="658" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1af2371ee7c8b41e1c4b8caa0132e5dcb1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string projekt_grupowy.databaseDataSet.TableRow.Phone</definition>
+        <argsstring></argsstring>
+        <name>Phone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="674" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="674" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a08480943e30e3a4f08c2dba3a78d6521" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string projekt_grupowy.databaseDataSet.TableRow.Brand</definition>
+        <argsstring></argsstring>
+        <name>Brand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="690" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="690" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a5c0b46e9528d671dd0387d1a394a8f54" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string projekt_grupowy.databaseDataSet.TableRow.Model</definition>
+        <argsstring></argsstring>
+        <name>Model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="706" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="706" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a986cc31983c43dfcb3ce819c311dedeb" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projekt_grupowy.databaseDataSet.TableRow.TableRow</definition>
+        <argsstring>(global::System.Data.DataRowBuilder rb)</argsstring>
+        <name>TableRow</name>
+        <param>
+          <type>global::System.Data.DataRowBuilder</type>
+          <declname>rb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="624" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="624" bodyend="627"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1abb9dae935364f9b269cacca2600c2809" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool projekt_grupowy.databaseDataSet.TableRow.IsNameNull</definition>
+        <argsstring>()</argsstring>
+        <name>IsNameNull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="722" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="722" bodyend="724"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1ac3fbcd96103ff22f3a44b7aa16949076" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.databaseDataSet.TableRow.SetNameNull</definition>
+        <argsstring>()</argsstring>
+        <name>SetNameNull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="728" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="728" bodyend="730"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1af99e51c6600364b3d94860b8b15c385d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool projekt_grupowy.databaseDataSet.TableRow.IsSurnameNull</definition>
+        <argsstring>()</argsstring>
+        <name>IsSurnameNull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="734" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="734" bodyend="736"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1ae499e572c5ba58b3dcb873aef73f2e13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.databaseDataSet.TableRow.SetSurnameNull</definition>
+        <argsstring>()</argsstring>
+        <name>SetSurnameNull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="740" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="740" bodyend="742"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1ad533e31c2c8b0261e7997eb6e15dd929" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool projekt_grupowy.databaseDataSet.TableRow.IsPhoneNull</definition>
+        <argsstring>()</argsstring>
+        <name>IsPhoneNull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="746" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="746" bodyend="748"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a9bb22b0efbf7e9ae9760aef241fc6af7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.databaseDataSet.TableRow.SetPhoneNull</definition>
+        <argsstring>()</argsstring>
+        <name>SetPhoneNull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="752" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="752" bodyend="754"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a26ff39d444442514dc7e1f771b8fac87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool projekt_grupowy.databaseDataSet.TableRow.IsBrandNull</definition>
+        <argsstring>()</argsstring>
+        <name>IsBrandNull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="758" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="758" bodyend="760"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a9330170081a8a87b0af629f79193cc46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.databaseDataSet.TableRow.SetBrandNull</definition>
+        <argsstring>()</argsstring>
+        <name>SetBrandNull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="764" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="764" bodyend="766"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a6249607cf7f5f31cad8e9b9e7c526daf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool projekt_grupowy.databaseDataSet.TableRow.IsModelNull</definition>
+        <argsstring>()</argsstring>
+        <name>IsModelNull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="770" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="770" bodyend="772"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a415c333b4db34fdd736a1a38e5016fb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.databaseDataSet.TableRow.SetModelNull</definition>
+        <argsstring>()</argsstring>
+        <name>SetModelNull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="776" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="776" bodyend="778"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents strongly named DataRow class. /summary&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="46">
+        <label>projekt_grupowy.databaseDataSet.TableRow</label>
+        <link refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>global::SystemData::DataRow</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="48">
+        <label>projekt_grupowy.databaseDataSet.TableRow</label>
+        <link refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>global::SystemData::DataRow</label>
+      </node>
+    </collaborationgraph>
+    <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="618" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="618" bodyend="779"/>
+    <listofallmembers>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a08480943e30e3a4f08c2dba3a78d6521" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRow</scope><name>Brand</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1acca10b3fee85160e8b31dd4831b2e4aa" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRow</scope><name>CustomerID</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a26ff39d444442514dc7e1f771b8fac87" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRow</scope><name>IsBrandNull</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a6249607cf7f5f31cad8e9b9e7c526daf" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRow</scope><name>IsModelNull</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1abb9dae935364f9b269cacca2600c2809" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRow</scope><name>IsNameNull</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1ad533e31c2c8b0261e7997eb6e15dd929" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRow</scope><name>IsPhoneNull</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1af99e51c6600364b3d94860b8b15c385d" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRow</scope><name>IsSurnameNull</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a5c0b46e9528d671dd0387d1a394a8f54" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRow</scope><name>Model</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a580e3324a8bf4643dd118da776260521" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRow</scope><name>Name</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1af2371ee7c8b41e1c4b8caa0132e5dcb1" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRow</scope><name>Phone</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a9330170081a8a87b0af629f79193cc46" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRow</scope><name>SetBrandNull</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a415c333b4db34fdd736a1a38e5016fb6" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRow</scope><name>SetModelNull</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1ac3fbcd96103ff22f3a44b7aa16949076" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRow</scope><name>SetNameNull</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a9bb22b0efbf7e9ae9760aef241fc6af7" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRow</scope><name>SetPhoneNull</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1ae499e572c5ba58b3dcb873aef73f2e13" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRow</scope><name>SetSurnameNull</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a8e5f9e1d022e0c91568c8bdbd68de382" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRow</scope><name>Surname</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a986cc31983c43dfcb3ce819c311dedeb" prot="package" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRow</scope><name>TableRow</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_1a100d262ba84c604b3e5450fb5158b991" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet::TableRow</scope><name>tableTable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

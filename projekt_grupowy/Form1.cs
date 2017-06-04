@@ -12,6 +12,9 @@ using System.IO.Ports;
 
 namespace projekt_grupowy
 {
+    /// <summary>
+    /// The main form of the application.
+    /// </summary>
     public partial class Form1 : Form
     {
         int[] temperature = new int[20];
@@ -187,6 +190,11 @@ namespace projekt_grupowy
             chart1.Series["Series1"].Points.DataBindXY(X_Array, temperature);
         }
 
+
+        /// <summary>
+        /// Method calculates values like minimal, maximal and average.
+        /// </summary>
+        /// <param name="valueType">Informs method about type of values. It can be temperature or another value.</param>
         private void calculateCharacteristicValues(string valueType) {
             if (valueType.ToLower() == "temperature") {
                 if (temperature[19] < minTemperature[19]) minTemperature[19] = temperature[19];
