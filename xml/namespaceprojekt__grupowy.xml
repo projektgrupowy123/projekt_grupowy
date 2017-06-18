@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespaceprojekt__grupowy" kind="namespace" language="C#">
+    <compoundname>projekt_grupowy</compoundname>
+    <innerclass refid="classprojekt__grupowy_1_1database_data_set" prot="public">projekt_grupowy::databaseDataSet</innerclass>
+    <innerclass refid="classprojekt__grupowy_1_1database_data_set1" prot="public">projekt_grupowy::databaseDataSet1</innerclass>
+    <innerclass refid="classprojekt__grupowy_1_1_form1" prot="public">projekt_grupowy::Form1</innerclass>
+    <innerclass refid="classprojekt__grupowy_1_1_program" prot="public">projekt_grupowy::Program</innerclass>
+    <innernamespace refid="namespaceprojekt__grupowy_1_1database_data_set1_table_adapters">projekt_grupowy::databaseDataSet1TableAdapters</innernamespace>
+    <innernamespace refid="namespaceprojekt__grupowy_1_1database_data_set_table_adapters">projekt_grupowy::databaseDataSetTableAdapters</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="13" column="1"/>
+  </compounddef>
+</doxygen>

@@ -36,9 +36,9 @@
             System.Windows.Forms.Label brandLabel;
             System.Windows.Forms.Label modelLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.Client_groupBox = new System.Windows.Forms.GroupBox();
             this.searchSurnameToolStrip = new System.Windows.Forms.ToolStrip();
             this.surnameToolStripLabel = new System.Windows.Forms.ToolStripLabel();
@@ -84,7 +84,12 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.plot_button = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label1 = new System.Windows.Forms.Label();
+            this.maxLabel = new System.Windows.Forms.Label();
+            this.minLabel = new System.Windows.Forms.Label();
+            this.averageLabel = new System.Windows.Forms.Label();
+            this.maxTextBox = new System.Windows.Forms.TextBox();
+            this.minTextBox = new System.Windows.Forms.TextBox();
+            this.averageTextBox = new System.Windows.Forms.TextBox();
             customerIDLabel = new System.Windows.Forms.Label();
             nameLabel = new System.Windows.Forms.Label();
             surnameLabel = new System.Windows.Forms.Label();
@@ -106,54 +111,60 @@
             // customerIDLabel
             // 
             customerIDLabel.AutoSize = true;
-            customerIDLabel.Location = new System.Drawing.Point(11, 84);
+            customerIDLabel.Location = new System.Drawing.Point(15, 103);
+            customerIDLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             customerIDLabel.Name = "customerIDLabel";
-            customerIDLabel.Size = new System.Drawing.Size(68, 13);
+            customerIDLabel.Size = new System.Drawing.Size(89, 17);
             customerIDLabel.TabIndex = 0;
             customerIDLabel.Text = "Customer ID:";
             // 
             // nameLabel
             // 
             nameLabel.AutoSize = true;
-            nameLabel.Location = new System.Drawing.Point(11, 110);
+            nameLabel.Location = new System.Drawing.Point(15, 135);
+            nameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             nameLabel.Name = "nameLabel";
-            nameLabel.Size = new System.Drawing.Size(38, 13);
+            nameLabel.Size = new System.Drawing.Size(49, 17);
             nameLabel.TabIndex = 2;
             nameLabel.Text = "Name:";
             // 
             // surnameLabel
             // 
             surnameLabel.AutoSize = true;
-            surnameLabel.Location = new System.Drawing.Point(11, 136);
+            surnameLabel.Location = new System.Drawing.Point(15, 167);
+            surnameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             surnameLabel.Name = "surnameLabel";
-            surnameLabel.Size = new System.Drawing.Size(52, 13);
+            surnameLabel.Size = new System.Drawing.Size(69, 17);
             surnameLabel.TabIndex = 4;
             surnameLabel.Text = "Surname:";
             // 
             // phoneLabel
             // 
             phoneLabel.AutoSize = true;
-            phoneLabel.Location = new System.Drawing.Point(11, 162);
+            phoneLabel.Location = new System.Drawing.Point(15, 199);
+            phoneLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             phoneLabel.Name = "phoneLabel";
-            phoneLabel.Size = new System.Drawing.Size(41, 13);
+            phoneLabel.Size = new System.Drawing.Size(53, 17);
             phoneLabel.TabIndex = 6;
             phoneLabel.Text = "Phone:";
             // 
             // brandLabel
             // 
             brandLabel.AutoSize = true;
-            brandLabel.Location = new System.Drawing.Point(11, 188);
+            brandLabel.Location = new System.Drawing.Point(15, 231);
+            brandLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             brandLabel.Name = "brandLabel";
-            brandLabel.Size = new System.Drawing.Size(38, 13);
+            brandLabel.Size = new System.Drawing.Size(50, 17);
             brandLabel.TabIndex = 8;
             brandLabel.Text = "Brand:";
             // 
             // modelLabel
             // 
             modelLabel.AutoSize = true;
-            modelLabel.Location = new System.Drawing.Point(11, 214);
+            modelLabel.Location = new System.Drawing.Point(15, 263);
+            modelLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             modelLabel.Name = "modelLabel";
-            modelLabel.Size = new System.Drawing.Size(39, 13);
+            modelLabel.Size = new System.Drawing.Size(50, 17);
             modelLabel.TabIndex = 10;
             modelLabel.Text = "Model:";
             // 
@@ -175,9 +186,11 @@
             this.Client_groupBox.Controls.Add(modelLabel);
             this.Client_groupBox.Controls.Add(this.modelTextBox);
             this.Client_groupBox.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.Client_groupBox.Location = new System.Drawing.Point(24, 21);
+            this.Client_groupBox.Location = new System.Drawing.Point(32, 26);
+            this.Client_groupBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Client_groupBox.Name = "Client_groupBox";
-            this.Client_groupBox.Size = new System.Drawing.Size(571, 256);
+            this.Client_groupBox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Client_groupBox.Size = new System.Drawing.Size(761, 315);
             this.Client_groupBox.TabIndex = 0;
             this.Client_groupBox.TabStop = false;
             this.Client_groupBox.Text = "Client";
@@ -185,32 +198,33 @@
             // searchSurnameToolStrip
             // 
             this.searchSurnameToolStrip.Dock = System.Windows.Forms.DockStyle.None;
+            this.searchSurnameToolStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.searchSurnameToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.surnameToolStripLabel,
             this.surnameToolStripTextBox,
             this.searchSurnameToolStripButton});
-            this.searchSurnameToolStrip.Location = new System.Drawing.Point(14, 41);
+            this.searchSurnameToolStrip.Location = new System.Drawing.Point(19, 50);
             this.searchSurnameToolStrip.Name = "searchSurnameToolStrip";
-            this.searchSurnameToolStrip.Size = new System.Drawing.Size(264, 25);
+            this.searchSurnameToolStrip.Size = new System.Drawing.Size(331, 27);
             this.searchSurnameToolStrip.TabIndex = 1;
             this.searchSurnameToolStrip.Text = "searchSurnameToolStrip";
             // 
             // surnameToolStripLabel
             // 
             this.surnameToolStripLabel.Name = "surnameToolStripLabel";
-            this.surnameToolStripLabel.Size = new System.Drawing.Size(57, 22);
+            this.surnameToolStripLabel.Size = new System.Drawing.Size(70, 24);
             this.surnameToolStripLabel.Text = "Surname:";
             // 
             // surnameToolStripTextBox
             // 
             this.surnameToolStripTextBox.Name = "surnameToolStripTextBox";
-            this.surnameToolStripTextBox.Size = new System.Drawing.Size(100, 25);
+            this.surnameToolStripTextBox.Size = new System.Drawing.Size(132, 27);
             // 
             // searchSurnameToolStripButton
             // 
             this.searchSurnameToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.searchSurnameToolStripButton.Name = "searchSurnameToolStripButton";
-            this.searchSurnameToolStripButton.Size = new System.Drawing.Size(93, 22);
+            this.searchSurnameToolStripButton.Size = new System.Drawing.Size(115, 24);
             this.searchSurnameToolStripButton.Text = "SearchSurname";
             this.searchSurnameToolStripButton.Click += new System.EventHandler(this.searchSurnameToolStripButton_Click);
             // 
@@ -227,9 +241,10 @@
             this.dataGridViewTextBoxColumn5,
             this.dataGridViewTextBoxColumn6});
             this.tableDataGridView.DataSource = this.tableBindingSource;
-            this.tableDataGridView.Location = new System.Drawing.Point(207, 81);
+            this.tableDataGridView.Location = new System.Drawing.Point(276, 100);
+            this.tableDataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableDataGridView.Name = "tableDataGridView";
-            this.tableDataGridView.Size = new System.Drawing.Size(342, 150);
+            this.tableDataGridView.Size = new System.Drawing.Size(456, 185);
             this.tableDataGridView.TabIndex = 13;
             this.tableDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tableDataGridView_CellContentClick);
             // 
@@ -286,6 +301,7 @@
             this.tableBindingNavigator.CountItem = this.bindingNavigatorCountItem;
             this.tableBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
             this.tableBindingNavigator.Dock = System.Windows.Forms.DockStyle.None;
+            this.tableBindingNavigator.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.tableBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorMoveFirstItem,
             this.bindingNavigatorMovePreviousItem,
@@ -299,14 +315,14 @@
             this.bindingNavigatorAddNewItem,
             this.bindingNavigatorDeleteItem,
             this.tableBindingNavigatorSaveItem});
-            this.tableBindingNavigator.Location = new System.Drawing.Point(14, 16);
+            this.tableBindingNavigator.Location = new System.Drawing.Point(19, 20);
             this.tableBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.tableBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
             this.tableBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
             this.tableBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.tableBindingNavigator.Name = "tableBindingNavigator";
             this.tableBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.tableBindingNavigator.Size = new System.Drawing.Size(278, 25);
+            this.tableBindingNavigator.Size = new System.Drawing.Size(310, 27);
             this.tableBindingNavigator.TabIndex = 1;
             this.tableBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -316,13 +332,13 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             // 
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 24);
             this.bindingNavigatorCountItem.Text = "of {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
@@ -332,7 +348,7 @@
             this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
             this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // bindingNavigatorMoveFirstItem
@@ -341,7 +357,7 @@
             this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
             this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
             this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorMoveFirstItem.Text = "Move first";
             // 
             // bindingNavigatorMovePreviousItem
@@ -350,27 +366,27 @@
             this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
             this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
             this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorMovePreviousItem.Text = "Move previous";
             // 
             // bindingNavigatorSeparator
             // 
             this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 25);
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 27);
             // 
             // bindingNavigatorPositionItem
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Position";
             this.bindingNavigatorPositionItem.AutoSize = false;
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(65, 27);
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Current position";
             // 
             // bindingNavigatorSeparator1
             // 
             this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
             // bindingNavigatorMoveNextItem
             // 
@@ -378,7 +394,7 @@
             this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorMoveNextItem.Text = "Move next";
             // 
             // bindingNavigatorMoveLastItem
@@ -387,69 +403,75 @@
             this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
             this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
             this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorMoveLastItem.Text = "Move last";
             // 
             // bindingNavigatorSeparator2
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 27);
             // 
             // tableBindingNavigatorSaveItem
             // 
             this.tableBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.tableBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("tableBindingNavigatorSaveItem.Image")));
             this.tableBindingNavigatorSaveItem.Name = "tableBindingNavigatorSaveItem";
-            this.tableBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
+            this.tableBindingNavigatorSaveItem.Size = new System.Drawing.Size(24, 24);
             this.tableBindingNavigatorSaveItem.Text = "Save Data";
             this.tableBindingNavigatorSaveItem.Click += new System.EventHandler(this.tableBindingNavigatorSaveItem_Click_2);
             // 
             // customerIDTextBox
             // 
             this.customerIDTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource, "CustomerID", true));
-            this.customerIDTextBox.Location = new System.Drawing.Point(85, 81);
+            this.customerIDTextBox.Location = new System.Drawing.Point(113, 100);
+            this.customerIDTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.customerIDTextBox.Name = "customerIDTextBox";
-            this.customerIDTextBox.Size = new System.Drawing.Size(100, 20);
+            this.customerIDTextBox.Size = new System.Drawing.Size(132, 22);
             this.customerIDTextBox.TabIndex = 1;
             // 
             // nameTextBox
             // 
             this.nameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource, "Name", true));
-            this.nameTextBox.Location = new System.Drawing.Point(85, 107);
+            this.nameTextBox.Location = new System.Drawing.Point(113, 132);
+            this.nameTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(100, 20);
+            this.nameTextBox.Size = new System.Drawing.Size(132, 22);
             this.nameTextBox.TabIndex = 3;
             // 
             // surnameTextBox
             // 
             this.surnameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource, "Surname", true));
-            this.surnameTextBox.Location = new System.Drawing.Point(85, 133);
+            this.surnameTextBox.Location = new System.Drawing.Point(113, 164);
+            this.surnameTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.surnameTextBox.Name = "surnameTextBox";
-            this.surnameTextBox.Size = new System.Drawing.Size(100, 20);
+            this.surnameTextBox.Size = new System.Drawing.Size(132, 22);
             this.surnameTextBox.TabIndex = 5;
             // 
             // phoneTextBox
             // 
             this.phoneTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource, "Phone", true));
-            this.phoneTextBox.Location = new System.Drawing.Point(85, 159);
+            this.phoneTextBox.Location = new System.Drawing.Point(113, 196);
+            this.phoneTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.phoneTextBox.Name = "phoneTextBox";
-            this.phoneTextBox.Size = new System.Drawing.Size(100, 20);
+            this.phoneTextBox.Size = new System.Drawing.Size(132, 22);
             this.phoneTextBox.TabIndex = 7;
             // 
             // brandTextBox
             // 
             this.brandTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource, "Brand", true));
-            this.brandTextBox.Location = new System.Drawing.Point(85, 185);
+            this.brandTextBox.Location = new System.Drawing.Point(113, 228);
+            this.brandTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.brandTextBox.Name = "brandTextBox";
-            this.brandTextBox.Size = new System.Drawing.Size(100, 20);
+            this.brandTextBox.Size = new System.Drawing.Size(132, 22);
             this.brandTextBox.TabIndex = 9;
             // 
             // modelTextBox
             // 
             this.modelTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource, "Model", true));
-            this.modelTextBox.Location = new System.Drawing.Point(85, 211);
+            this.modelTextBox.Location = new System.Drawing.Point(113, 260);
+            this.modelTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.modelTextBox.Name = "modelTextBox";
-            this.modelTextBox.Size = new System.Drawing.Size(100, 20);
+            this.modelTextBox.Size = new System.Drawing.Size(132, 22);
             this.modelTextBox.TabIndex = 11;
             // 
             // tableTableAdapter
@@ -468,18 +490,21 @@
             this.groupBox1.Controls.Add(this.ports_comboBox);
             this.groupBox1.Controls.Add(this.findPorts_button);
             this.groupBox1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.groupBox1.Location = new System.Drawing.Point(29, 299);
+            this.groupBox1.Location = new System.Drawing.Point(39, 368);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(566, 59);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(755, 73);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Connection";
             // 
             // connect_button
             // 
-            this.connect_button.Location = new System.Drawing.Point(272, 26);
+            this.connect_button.Location = new System.Drawing.Point(363, 32);
+            this.connect_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.connect_button.Name = "connect_button";
-            this.connect_button.Size = new System.Drawing.Size(75, 23);
+            this.connect_button.Size = new System.Drawing.Size(100, 28);
             this.connect_button.TabIndex = 2;
             this.connect_button.Text = "Connect";
             this.connect_button.UseVisualStyleBackColor = true;
@@ -488,16 +513,18 @@
             // ports_comboBox
             // 
             this.ports_comboBox.FormattingEnabled = true;
-            this.ports_comboBox.Location = new System.Drawing.Point(17, 26);
+            this.ports_comboBox.Location = new System.Drawing.Point(23, 32);
+            this.ports_comboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ports_comboBox.Name = "ports_comboBox";
-            this.ports_comboBox.Size = new System.Drawing.Size(108, 21);
+            this.ports_comboBox.Size = new System.Drawing.Size(143, 24);
             this.ports_comboBox.TabIndex = 1;
             // 
             // findPorts_button
             // 
-            this.findPorts_button.Location = new System.Drawing.Point(143, 26);
+            this.findPorts_button.Location = new System.Drawing.Point(191, 32);
+            this.findPorts_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.findPorts_button.Name = "findPorts_button";
-            this.findPorts_button.Size = new System.Drawing.Size(108, 23);
+            this.findPorts_button.Size = new System.Drawing.Size(144, 28);
             this.findPorts_button.TabIndex = 0;
             this.findPorts_button.Text = "Find available ports";
             this.findPorts_button.UseVisualStyleBackColor = true;
@@ -509,34 +536,41 @@
             // 
             // chart1
             // 
-            chartArea3.AxisX.Title = "Time [ms]";
-            chartArea3.AxisY.Title = "temp [°C]";
-            chartArea3.BackSecondaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
-            this.chart1.Location = new System.Drawing.Point(89, 24);
+            chartArea5.AxisX.Title = "Time [ms]";
+            chartArea5.AxisY.Title = "temp [°C]";
+            chartArea5.BackSecondaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            chartArea5.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea5);
+            legend5.Name = "Legend1";
+            this.chart1.Legends.Add(legend5);
+            this.chart1.Location = new System.Drawing.Point(119, 30);
+            this.chart1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chart1.Name = "chart1";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chart1.Series.Add(series3);
-            this.chart1.Size = new System.Drawing.Size(378, 300);
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series5.Legend = "Legend1";
+            series5.Name = "Series1";
+            this.chart1.Series.Add(series5);
+            this.chart1.Size = new System.Drawing.Size(504, 369);
             this.chart1.TabIndex = 2;
             this.chart1.Text = "chart1";
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.averageTextBox);
+            this.groupBox2.Controls.Add(this.minTextBox);
+            this.groupBox2.Controls.Add(this.maxTextBox);
+            this.groupBox2.Controls.Add(this.averageLabel);
+            this.groupBox2.Controls.Add(this.minLabel);
+            this.groupBox2.Controls.Add(this.maxLabel);
             this.groupBox2.Controls.Add(this.plot_button);
             this.groupBox2.Controls.Add(this.chart1);
             this.groupBox2.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.groupBox2.Location = new System.Drawing.Point(29, 364);
+            this.groupBox2.Location = new System.Drawing.Point(39, 448);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(566, 377);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(755, 464);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "groupBox2";
@@ -552,9 +586,10 @@
             // 
             // plot_button
             // 
-            this.plot_button.Location = new System.Drawing.Point(224, 337);
+            this.plot_button.Location = new System.Drawing.Point(299, 415);
+            this.plot_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.plot_button.Name = "plot_button";
-            this.plot_button.Size = new System.Drawing.Size(75, 23);
+            this.plot_button.Size = new System.Drawing.Size(100, 28);
             this.plot_button.TabIndex = 4;
             this.plot_button.Text = "Start";
             this.plot_button.UseVisualStyleBackColor = true;
@@ -564,24 +599,65 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // label1
+            // maxLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 324);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Mean Temperature";
-           
+            this.maxLabel.Location = new System.Drawing.Point(630, 30);
+            this.maxLabel.Name = "maxLabel";
+            this.maxLabel.Size = new System.Drawing.Size(109, 17);
+            this.maxLabel.TabIndex = 0;
+            this.maxLabel.Text = "Maximal";
+            // 
+            // minLabel
+            // 
+            this.minLabel.AutoSize = true;
+            this.minLabel.Location = new System.Drawing.Point(630, 77);
+            this.minLabel.Name = "minLabel";
+            this.minLabel.Size = new System.Drawing.Size(55, 17);
+            this.minLabel.TabIndex = 6;
+            this.minLabel.Text = "Minimal";
+            // 
+            // averageLabel
+            // 
+            this.averageLabel.AutoSize = true;
+            this.averageLabel.Location = new System.Drawing.Point(630, 122);
+            this.averageLabel.Name = "averageLabel";
+            this.averageLabel.Size = new System.Drawing.Size(61, 17);
+            this.averageLabel.TabIndex = 7;
+            this.averageLabel.Text = "Average";
+            // 
+            // maxTextBox
+            // 
+            this.maxTextBox.Enabled = false;
+            this.maxTextBox.Location = new System.Drawing.Point(633, 50);
+            this.maxTextBox.Name = "maxTextBox";
+            this.maxTextBox.Size = new System.Drawing.Size(100, 22);
+            this.maxTextBox.TabIndex = 8;
+            // 
+            // minTextBox
+            // 
+            this.minTextBox.Enabled = false;
+            this.minTextBox.Location = new System.Drawing.Point(633, 97);
+            this.minTextBox.Name = "minTextBox";
+            this.minTextBox.Size = new System.Drawing.Size(100, 22);
+            this.minTextBox.TabIndex = 9;
+            // 
+            // averageTextBox
+            // 
+            this.averageTextBox.Enabled = false;
+            this.averageTextBox.Location = new System.Drawing.Point(633, 142);
+            this.averageTextBox.Name = "averageTextBox";
+            this.averageTextBox.Size = new System.Drawing.Size(100, 22);
+            this.averageTextBox.TabIndex = 10;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(617, 733);
+            this.ClientSize = new System.Drawing.Size(823, 927);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Client_groupBox);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -649,8 +725,13 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button plot_button;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox averageTextBox;
+        private System.Windows.Forms.TextBox minTextBox;
+        private System.Windows.Forms.TextBox maxTextBox;
+        private System.Windows.Forms.Label averageLabel;
+        private System.Windows.Forms.Label minLabel;
+        private System.Windows.Forms.Label maxLabel;
+
     }
 }
 

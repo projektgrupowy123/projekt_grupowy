@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_9e4f26af7b3c9752231472d9d2805f11" kind="dir">
+    <compoundname>projekt_grupowy</compoundname>
+    <innerfile refid="database_data_set_8_designer_8cs">databaseDataSet.Designer.cs</innerfile>
+    <innerfile refid="database_data_set1_8_designer_8cs">databaseDataSet1.Designer.cs</innerfile>
+    <innerfile refid="_form1_8cs">Form1.cs</innerfile>
+    <innerfile refid="_form1_8_designer_8cs">Form1.Designer.cs</innerfile>
+    <innerfile refid="_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="projekt_grupowy/"/>
+  </compounddef>
+</doxygen>

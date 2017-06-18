@@ -1,0 +1,62 @@
+\hypertarget{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager}{}\section{projekt\+\_\+grupowy.\+database\+Data\+Set1\+Table\+Adapters.\+Table\+Adapter\+Manager Class Reference}
+\label{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager}\index{projekt\+\_\+grupowy.\+database\+Data\+Set1\+Table\+Adapters.\+Table\+Adapter\+Manager@{projekt\+\_\+grupowy.\+database\+Data\+Set1\+Table\+Adapters.\+Table\+Adapter\+Manager}}
+
+
+\hyperlink{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager}{Table\+Adapter\+Manager} is used to coordinate Table\+Adapters in the dataset to enable Hierarchical Update scenarios /summary$>$  
+
+
+Inheritance diagram for projekt\+\_\+grupowy.\+database\+Data\+Set1\+Table\+Adapters.\+Table\+Adapter\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_ad394b93344d1252bbb4268ccb8f786af}\label{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_ad394b93344d1252bbb4268ccb8f786af}} 
+enum \hyperlink{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_ad394b93344d1252bbb4268ccb8f786af}{Update\+Order\+Option} \{ {\bfseries Insert\+Update\+Delete} = 0, 
+{\bfseries Update\+Insert\+Delete} = 1
+ \}\begin{DoxyCompactList}\small\item\em Update Order Option /summary$>$ \end{DoxyCompactList}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_a38426ebb65e6233c6fd1842095acb234}\label{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_a38426ebb65e6233c6fd1842095acb234}} 
+virtual int \hyperlink{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_a38426ebb65e6233c6fd1842095acb234}{Update\+All} (\hyperlink{classprojekt__grupowy_1_1database_data_set1}{database\+Data\+Set1} data\+Set)
+\begin{DoxyCompactList}\small\item\em Update all changes to the dataset. /summary$>$ \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_a320d34e46e759b0a7f77e59ababa44d3}\label{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_a320d34e46e759b0a7f77e59ababa44d3}} 
+virtual void {\bfseries Sort\+Self\+Reference\+Rows} (global\+::\+System.\+Data.\+Data\+Row\mbox{[}$\,$\mbox{]} rows, global\+::\+System.\+Data.\+Data\+Relation relation, bool child\+First)
+\item 
+\mbox{\Hypertarget{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_ac8b01e5580545e7014c9ad25a99f87a6}\label{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_ac8b01e5580545e7014c9ad25a99f87a6}} 
+virtual bool {\bfseries Match\+Table\+Adapter\+Connection} (global\+::\+System.\+Data.\+I\+Db\+Connection input\+Connection)
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_aa2369dfc1637ad014d736bc10adacc9c}\label{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_aa2369dfc1637ad014d736bc10adacc9c}} 
+\hyperlink{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_ad394b93344d1252bbb4268ccb8f786af}{Update\+Order\+Option} {\bfseries Update\+Order}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_ae2c71c45459a22745b27f2992746698e}\label{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_ae2c71c45459a22745b27f2992746698e}} 
+\hyperlink{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_table_adapter}{Table\+Table\+Adapter} {\bfseries Table\+Table\+Adapter}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_a17ecbcbcf86cbd00a78f2e4b5a40525d}\label{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_a17ecbcbcf86cbd00a78f2e4b5a40525d}} 
+bool {\bfseries Backup\+Data\+Set\+Before\+Update}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_a76a181d57643bc6dccd00269d8179059}\label{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_a76a181d57643bc6dccd00269d8179059}} 
+global\+::\+System.\+Data.\+I\+Db\+Connection {\bfseries Connection}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_a7f9af27964a626ada1f841fc874af144}\label{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_a7f9af27964a626ada1f841fc874af144}} 
+int {\bfseries Table\+Adapter\+Instance\+Count}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager}{Table\+Adapter\+Manager} is used to coordinate Table\+Adapters in the dataset to enable Hierarchical Update scenarios /summary$>$ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+projekt\+\_\+grupowy/database\+Data\+Set1.\+Designer.\+cs\end{DoxyCompactItemize}

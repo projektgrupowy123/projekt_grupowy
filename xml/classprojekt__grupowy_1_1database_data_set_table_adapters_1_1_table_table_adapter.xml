@@ -1,0 +1,562 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter" kind="class" language="C#" prot="public">
+    <compoundname>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Component</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a249be982b859446f5618ef0c976bba50" prot="private" static="no" mutable="no">
+        <type>global::System.Data.SqlClient.SqlDataAdapter</type>
+        <definition>global::System.Data.SqlClient.SqlDataAdapter projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter._adapter</definition>
+        <argsstring></argsstring>
+        <name>_adapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="830" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="830" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a5a4f4ef74f62466dbec552fdf3df9e47" prot="private" static="no" mutable="no">
+        <type>global::System.Data.SqlClient.SqlConnection</type>
+        <definition>global::System.Data.SqlClient.SqlConnection projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter._connection</definition>
+        <argsstring></argsstring>
+        <name>_connection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="832" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="832" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1aff577ac92007f77d64bd6da0f93a1f0c" prot="private" static="no" mutable="no">
+        <type>global::System.Data.SqlClient.SqlTransaction</type>
+        <definition>global::System.Data.SqlClient.SqlTransaction projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter._transaction</definition>
+        <argsstring></argsstring>
+        <name>_transaction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="834" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="834" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a8f13671cdb287ea0ca453af62c1e5f76" prot="private" static="no" mutable="no">
+        <type>global::System.Data.SqlClient.SqlCommand []</type>
+        <definition>global::System.Data.SqlClient.SqlCommand [] projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter._commandCollection</definition>
+        <argsstring></argsstring>
+        <name>_commandCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="836" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="836" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a8ac0d7d8de777bc9f10d9f27c860e9b1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter._clearBeforeFill</definition>
+        <argsstring></argsstring>
+        <name>_clearBeforeFill</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="838" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="838" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a7c8d86933e345ccabb4d38a02b3f5c19" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.SqlClient.SqlDataAdapter</type>
+        <definition>global::System.Data.SqlClient.SqlDataAdapter projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.Adapter</definition>
+        <argsstring></argsstring>
+        <name>Adapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="848" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="848" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a0d473db0288e43ea8920330e1a8ce36b" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.SqlClient.SqlConnection</type>
+        <definition>global::System.Data.SqlClient.SqlConnection projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.Connection</definition>
+        <argsstring></argsstring>
+        <name>Connection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="859" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="859" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a4e3531a3a60b12d5b4c6d6c8fa4b0b07" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.SqlClient.SqlTransaction</type>
+        <definition>global::System.Data.SqlClient.SqlTransaction projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.Transaction</definition>
+        <argsstring></argsstring>
+        <name>Transaction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="887" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="887" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1ad53e7649f9f3abef0b023deb1a49e262" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.SqlClient.SqlCommand []</type>
+        <definition>global::System.Data.SqlClient.SqlCommand [] projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.CommandCollection</definition>
+        <argsstring></argsstring>
+        <name>CommandCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="913" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="913" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a5b6398a078e60df017cb3a44f60dfdb9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.ClearBeforeFill</definition>
+        <argsstring></argsstring>
+        <name>ClearBeforeFill</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="924" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="924" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a59bd6e31e11263c379cc4c236eee3aa0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.TableTableAdapter</definition>
+        <argsstring>()</argsstring>
+        <name>TableTableAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="842" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="842" bodyend="844"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1ace766f9057ac5bd14bc51289934f7257" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.Fill</definition>
+        <argsstring>(databaseDataSet.TableDataTable dataTable)</argsstring>
+        <name>Fill</name>
+        <param>
+          <type><ref refid="classprojekt__grupowy_1_1database_data_set_1_1_table_data_table" kindref="compound">databaseDataSet.TableDataTable</ref></type>
+          <declname>dataTable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1026" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1026" bodyend="1033"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1addaae946c2860e16b770bd5ccd0bd95c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classprojekt__grupowy_1_1database_data_set_1_1_table_data_table" kindref="compound">databaseDataSet.TableDataTable</ref></type>
+        <definition>virtual databaseDataSet.TableDataTable projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.GetData</definition>
+        <argsstring>()</argsstring>
+        <name>GetData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1039" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1039" bodyend="1044"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1aa99c217f49e294ac250f80c25319bff5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.SearchSurname</definition>
+        <argsstring>(databaseDataSet.TableDataTable dataTable, string Surname)</argsstring>
+        <name>SearchSurname</name>
+        <param>
+          <type><ref refid="classprojekt__grupowy_1_1database_data_set_1_1_table_data_table" kindref="compound">databaseDataSet.TableDataTable</ref></type>
+          <declname>dataTable</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Surname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1050" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1050" bodyend="1063"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a68ea68db5595a8527d78b01f4eba364c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.Update</definition>
+        <argsstring>(databaseDataSet.TableDataTable dataTable)</argsstring>
+        <name>Update</name>
+        <param>
+          <type><ref refid="classprojekt__grupowy_1_1database_data_set_1_1_table_data_table" kindref="compound">databaseDataSet.TableDataTable</ref></type>
+          <declname>dataTable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1068" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1068" bodyend="1070"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a86945efeb90b97afc51c0065cf7fc4c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.Update</definition>
+        <argsstring>(databaseDataSet dataSet)</argsstring>
+        <name>Update</name>
+        <param>
+          <type><ref refid="classprojekt__grupowy_1_1database_data_set" kindref="compound">databaseDataSet</ref></type>
+          <declname>dataSet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1075" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1075" bodyend="1077"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a0ba343619ac2126cb0030d37ebe48b07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.Update</definition>
+        <argsstring>(global::System.Data.DataRow dataRow)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>global::System.Data.DataRow</type>
+          <declname>dataRow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1082" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1082" bodyend="1085"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a2b4a5f38949b32b8739c9b76baa5357b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.Update</definition>
+        <argsstring>(global::System.Data.DataRow[] dataRows)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>global::System.Data.DataRow []</type>
+          <declname>dataRows</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1090" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1090" bodyend="1092"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1ac64668e5af22effed944357e78c42d83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.Delete</definition>
+        <argsstring>(int Original_CustomerID, string Original_Name, string Original_Surname, string Original_Phone, string Original_Brand, string Original_Model)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>int</type>
+          <declname>Original_CustomerID</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Original_Name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Original_Surname</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Original_Phone</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Original_Brand</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Original_Model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1098" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1098" bodyend="1154"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a4db11105cace274066c275f9118fae26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.Insert</definition>
+        <argsstring>(int CustomerID, string Name, string Surname, string Phone, string Brand, string Model)</argsstring>
+        <name>Insert</name>
+        <param>
+          <type>int</type>
+          <declname>CustomerID</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Surname</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Phone</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Brand</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1160" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1160" bodyend="1206"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a4981ba25dd25262541d005be45a18772" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.Update</definition>
+        <argsstring>(int CustomerID, string Name, string Surname, string Phone, string Brand, string Model, int Original_CustomerID, string Original_Name, string Original_Surname, string Original_Phone, string Original_Brand, string Original_Model)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>int</type>
+          <declname>CustomerID</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Surname</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Phone</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Brand</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Model</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Original_CustomerID</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Original_Name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Original_Surname</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Original_Phone</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Original_Brand</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Original_Model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1212" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1212" bodyend="1299"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a9f9377d4e6fec08065bed93c19395725" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.Update</definition>
+        <argsstring>(string Name, string Surname, string Phone, string Brand, string Model, int Original_CustomerID, string Original_Name, string Original_Surname, string Original_Phone, string Original_Brand, string Original_Model)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>string</type>
+          <declname>Name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Surname</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Phone</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Brand</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Model</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Original_CustomerID</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Original_Name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Original_Surname</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Original_Phone</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Original_Brand</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Original_Model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1305" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1305" bodyend="1307"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1abd8feba08d7c3395a2f40c7c8468c4d5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.InitAdapter</definition>
+        <argsstring>()</argsstring>
+        <name>InitAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="935" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="935" bodyend="997"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a77e59d473f4b49e5c758f1dd011f5693" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.InitConnection</definition>
+        <argsstring>()</argsstring>
+        <name>InitConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1001" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1001" bodyend="1004"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1ae88dc057ba74face62a70adbde74f6ef" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter.InitCommandCollection</definition>
+        <argsstring>()</argsstring>
+        <name>InitCommandCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="1008" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="1008" bodyend="1020"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="58">
+        <label>projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter</label>
+        <link refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>global::SystemComponentModel::Component</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="60">
+        <label>projekt_grupowy.databaseDataSetTableAdapters.TableTableAdapter</label>
+        <link refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>global::SystemComponentModel::Component</label>
+      </node>
+    </collaborationgraph>
+    <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="828" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="828" bodyend="1308"/>
+    <listofallmembers>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a249be982b859446f5618ef0c976bba50" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>_adapter</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a8ac0d7d8de777bc9f10d9f27c860e9b1" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>_clearBeforeFill</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a8f13671cdb287ea0ca453af62c1e5f76" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>_commandCollection</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a5a4f4ef74f62466dbec552fdf3df9e47" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>_connection</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1aff577ac92007f77d64bd6da0f93a1f0c" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>_transaction</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a7c8d86933e345ccabb4d38a02b3f5c19" prot="package" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>Adapter</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a5b6398a078e60df017cb3a44f60dfdb9" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>ClearBeforeFill</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1ad53e7649f9f3abef0b023deb1a49e262" prot="protected" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>CommandCollection</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a0d473db0288e43ea8920330e1a8ce36b" prot="package" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>Connection</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1ac64668e5af22effed944357e78c42d83" prot="public" virt="virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>Delete</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1ace766f9057ac5bd14bc51289934f7257" prot="public" virt="virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>Fill</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1addaae946c2860e16b770bd5ccd0bd95c" prot="public" virt="virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>GetData</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1abd8feba08d7c3395a2f40c7c8468c4d5" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>InitAdapter</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1ae88dc057ba74face62a70adbde74f6ef" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>InitCommandCollection</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a77e59d473f4b49e5c758f1dd011f5693" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>InitConnection</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a4db11105cace274066c275f9118fae26" prot="public" virt="virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>Insert</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1aa99c217f49e294ac250f80c25319bff5" prot="public" virt="virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>SearchSurname</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a59bd6e31e11263c379cc4c236eee3aa0" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>TableTableAdapter</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a4e3531a3a60b12d5b4c6d6c8fa4b0b07" prot="package" virt="non-virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>Transaction</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a68ea68db5595a8527d78b01f4eba364c" prot="public" virt="virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>Update</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a86945efeb90b97afc51c0065cf7fc4c9" prot="public" virt="virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>Update</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a0ba343619ac2126cb0030d37ebe48b07" prot="public" virt="virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>Update</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a2b4a5f38949b32b8739c9b76baa5357b" prot="public" virt="virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>Update</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a4981ba25dd25262541d005be45a18772" prot="public" virt="virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>Update</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter_1a9f9377d4e6fec08065bed93c19395725" prot="public" virt="virtual"><scope>projekt_grupowy::databaseDataSetTableAdapters::TableTableAdapter</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

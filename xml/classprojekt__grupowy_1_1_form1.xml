@@ -1,0 +1,1214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classprojekt__grupowy_1_1_form1" kind="class" language="C#" prot="public">
+    <compoundname>projekt_grupowy::Form1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1acfb7cf0972206ed39f3100c4bdf59e8e" prot="private" static="no" mutable="no">
+        <type>int []</type>
+        <definition>int [] projekt_grupowy.Form1.temperature</definition>
+        <argsstring></argsstring>
+        <name>temperature</name>
+        <initializer>= new int[20]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="20" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a14c043c3cdfaa9d15a9a13429b231148" prot="private" static="no" mutable="no">
+        <type>int []</type>
+        <definition>int [] projekt_grupowy.Form1.maxTemperature</definition>
+        <argsstring></argsstring>
+        <name>maxTemperature</name>
+        <initializer>= new int[20]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="21" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a6e2712a92e9ab63ec8070f3a2732f3af" prot="private" static="no" mutable="no">
+        <type>int []</type>
+        <definition>int [] projekt_grupowy.Form1.minTemperature</definition>
+        <argsstring></argsstring>
+        <name>minTemperature</name>
+        <initializer>= new int[20]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="22" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1abaa1a71ee44d3650be601202bb542f27" prot="private" static="no" mutable="no">
+        <type>double []</type>
+        <definition>double [] projekt_grupowy.Form1.averageTemperature</definition>
+        <argsstring></argsstring>
+        <name>averageTemperature</name>
+        <initializer>= new double[20]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="23" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1ab5913a19a98bdc0643fea340f6a534bd" prot="private" static="no" mutable="no">
+        <type>int []</type>
+        <definition>int [] projekt_grupowy.Form1.X_Array</definition>
+        <argsstring></argsstring>
+        <name>X_Array</name>
+        <initializer>= new int[20]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="24" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a928db575518b307ea01142933b8e9d9c" prot="private" static="no" mutable="no">
+        <type>char []</type>
+        <definition>char [] projekt_grupowy.Form1.buff</definition>
+        <argsstring></argsstring>
+        <name>buff</name>
+        <initializer>= new char[1]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="25" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1aadadc854efc66d2f268323efd895e88f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int projekt_grupowy.Form1.samples</definition>
+        <argsstring></argsstring>
+        <name>samples</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="26" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a99b26e40e645417a521d6c1ba36f8ad9" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer projekt_grupowy.Form1.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="8" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a5db4cddadbff7502e1455555bee37199" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox projekt_grupowy.Form1.Client_groupBox</definition>
+        <argsstring></argsstring>
+        <name>Client_groupBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="674" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="674" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a8d2585264acf097eeb15046ab314c9ba" prot="private" static="no" mutable="no">
+        <type><ref refid="classprojekt__grupowy_1_1database_data_set" kindref="compound">databaseDataSet</ref></type>
+        <definition>databaseDataSet projekt_grupowy.Form1.databaseDataSet</definition>
+        <argsstring></argsstring>
+        <name>databaseDataSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="675" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="675" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a8dde747db9e56449119a9db9b45f8638" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.BindingSource</type>
+        <definition>System.Windows.Forms.BindingSource projekt_grupowy.Form1.tableBindingSource</definition>
+        <argsstring></argsstring>
+        <name>tableBindingSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="676" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="676" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a284d7aa209f1a986804618bb3420f4ac" prot="private" static="no" mutable="no">
+        <type><ref refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter" kindref="compound">databaseDataSetTableAdapters.TableTableAdapter</ref></type>
+        <definition>databaseDataSetTableAdapters.TableTableAdapter projekt_grupowy.Form1.tableTableAdapter</definition>
+        <argsstring></argsstring>
+        <name>tableTableAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="677" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="677" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1aec119ed8acb4789f594123093554d30b" prot="private" static="no" mutable="no">
+        <type><ref refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager" kindref="compound">databaseDataSetTableAdapters.TableAdapterManager</ref></type>
+        <definition>databaseDataSetTableAdapters.TableAdapterManager projekt_grupowy.Form1.tableAdapterManager</definition>
+        <argsstring></argsstring>
+        <name>tableAdapterManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="678" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="678" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a55a3ba37945f0888bb7f5250fd8f2396" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.BindingNavigator</type>
+        <definition>System.Windows.Forms.BindingNavigator projekt_grupowy.Form1.tableBindingNavigator</definition>
+        <argsstring></argsstring>
+        <name>tableBindingNavigator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="679" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="679" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a89775399e83240a7b300af37b181be00" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripButton</type>
+        <definition>System.Windows.Forms.ToolStripButton projekt_grupowy.Form1.bindingNavigatorAddNewItem</definition>
+        <argsstring></argsstring>
+        <name>bindingNavigatorAddNewItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="680" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="680" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1af79bd5f013d863ff4c5c0b9c8f3f9c78" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripLabel</type>
+        <definition>System.Windows.Forms.ToolStripLabel projekt_grupowy.Form1.bindingNavigatorCountItem</definition>
+        <argsstring></argsstring>
+        <name>bindingNavigatorCountItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="681" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="681" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1aa2afe420630352b733813885cf06f4f2" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripButton</type>
+        <definition>System.Windows.Forms.ToolStripButton projekt_grupowy.Form1.bindingNavigatorDeleteItem</definition>
+        <argsstring></argsstring>
+        <name>bindingNavigatorDeleteItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="682" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="682" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1ab39b45b8585bdde7a70e8d63e79404bd" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripButton</type>
+        <definition>System.Windows.Forms.ToolStripButton projekt_grupowy.Form1.bindingNavigatorMoveFirstItem</definition>
+        <argsstring></argsstring>
+        <name>bindingNavigatorMoveFirstItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="683" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="683" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1af8ce4a8ce84faa52c301e8f87ea13f82" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripButton</type>
+        <definition>System.Windows.Forms.ToolStripButton projekt_grupowy.Form1.bindingNavigatorMovePreviousItem</definition>
+        <argsstring></argsstring>
+        <name>bindingNavigatorMovePreviousItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="684" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="684" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a55f11d1177e63c312ab0b488e1b6544b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripSeparator</type>
+        <definition>System.Windows.Forms.ToolStripSeparator projekt_grupowy.Form1.bindingNavigatorSeparator</definition>
+        <argsstring></argsstring>
+        <name>bindingNavigatorSeparator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="685" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="685" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a2b846e3d8a355e101a8b3dca359791f2" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripTextBox</type>
+        <definition>System.Windows.Forms.ToolStripTextBox projekt_grupowy.Form1.bindingNavigatorPositionItem</definition>
+        <argsstring></argsstring>
+        <name>bindingNavigatorPositionItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="686" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="686" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a875b707bd33390db155f8e7cd527ee6d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripSeparator</type>
+        <definition>System.Windows.Forms.ToolStripSeparator projekt_grupowy.Form1.bindingNavigatorSeparator1</definition>
+        <argsstring></argsstring>
+        <name>bindingNavigatorSeparator1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="687" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="687" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1aeeeab9b224027b449996e5431a8fd6eb" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripButton</type>
+        <definition>System.Windows.Forms.ToolStripButton projekt_grupowy.Form1.bindingNavigatorMoveNextItem</definition>
+        <argsstring></argsstring>
+        <name>bindingNavigatorMoveNextItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="688" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="688" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a6fcc7469a6977dc4b2f06013734f7536" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripButton</type>
+        <definition>System.Windows.Forms.ToolStripButton projekt_grupowy.Form1.bindingNavigatorMoveLastItem</definition>
+        <argsstring></argsstring>
+        <name>bindingNavigatorMoveLastItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="689" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="689" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1af71d2a70453faf0d174609b8fbdb75d4" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripSeparator</type>
+        <definition>System.Windows.Forms.ToolStripSeparator projekt_grupowy.Form1.bindingNavigatorSeparator2</definition>
+        <argsstring></argsstring>
+        <name>bindingNavigatorSeparator2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="690" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="690" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1ab10e786006837640dedba6739f1781ae" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripButton</type>
+        <definition>System.Windows.Forms.ToolStripButton projekt_grupowy.Form1.tableBindingNavigatorSaveItem</definition>
+        <argsstring></argsstring>
+        <name>tableBindingNavigatorSaveItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="691" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="691" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1aef5ec049fcf126a9ec67370581d38518" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox projekt_grupowy.Form1.customerIDTextBox</definition>
+        <argsstring></argsstring>
+        <name>customerIDTextBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="692" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="692" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1af1af1541206d490f0e69d1010e643f91" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox projekt_grupowy.Form1.nameTextBox</definition>
+        <argsstring></argsstring>
+        <name>nameTextBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="693" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="693" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a326665ea3d88305b73c09eaad6b60254" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox projekt_grupowy.Form1.surnameTextBox</definition>
+        <argsstring></argsstring>
+        <name>surnameTextBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="694" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="694" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1aae5eee82a825e2d3eb59d18fb542183e" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox projekt_grupowy.Form1.phoneTextBox</definition>
+        <argsstring></argsstring>
+        <name>phoneTextBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="695" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="695" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a59a43b722d965e3b94e78682b48c5b6c" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox projekt_grupowy.Form1.brandTextBox</definition>
+        <argsstring></argsstring>
+        <name>brandTextBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="696" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="696" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1af59fc2a259c1c73cf4984e553165e55e" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox projekt_grupowy.Form1.modelTextBox</definition>
+        <argsstring></argsstring>
+        <name>modelTextBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="697" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="697" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a3a9b45dc3b48d618e2f8da99881e483a" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridView</type>
+        <definition>System.Windows.Forms.DataGridView projekt_grupowy.Form1.tableDataGridView</definition>
+        <argsstring></argsstring>
+        <name>tableDataGridView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="698" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="698" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1affd615c956abbf3bbf249ce4c4994a0c" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn projekt_grupowy.Form1.dataGridViewTextBoxColumn1</definition>
+        <argsstring></argsstring>
+        <name>dataGridViewTextBoxColumn1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="699" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="699" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a1a189ffc56acd2d23e0162be9ee23bb5" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn projekt_grupowy.Form1.dataGridViewTextBoxColumn2</definition>
+        <argsstring></argsstring>
+        <name>dataGridViewTextBoxColumn2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="700" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="700" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a15999434744104f8abe4b25b481d0a7d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn projekt_grupowy.Form1.dataGridViewTextBoxColumn3</definition>
+        <argsstring></argsstring>
+        <name>dataGridViewTextBoxColumn3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="701" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="701" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a9d7ee7315cf33ba3e37437009ae8bcde" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn projekt_grupowy.Form1.dataGridViewTextBoxColumn4</definition>
+        <argsstring></argsstring>
+        <name>dataGridViewTextBoxColumn4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="702" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="702" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a58426326b99ad2cd1dd4cb370c346291" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn projekt_grupowy.Form1.dataGridViewTextBoxColumn5</definition>
+        <argsstring></argsstring>
+        <name>dataGridViewTextBoxColumn5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="703" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="703" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a328ea0de24fb1fbf7aae6cf05f77bac6" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn projekt_grupowy.Form1.dataGridViewTextBoxColumn6</definition>
+        <argsstring></argsstring>
+        <name>dataGridViewTextBoxColumn6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="704" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="704" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a2ac565c4b94b0d7e683b7d5800ac1f62" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStrip</type>
+        <definition>System.Windows.Forms.ToolStrip projekt_grupowy.Form1.searchSurnameToolStrip</definition>
+        <argsstring></argsstring>
+        <name>searchSurnameToolStrip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="705" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="705" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1ac6fe9baf748f92cdb4c1684b85ed0c9a" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripLabel</type>
+        <definition>System.Windows.Forms.ToolStripLabel projekt_grupowy.Form1.surnameToolStripLabel</definition>
+        <argsstring></argsstring>
+        <name>surnameToolStripLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="706" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="706" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1af8615ce8d448522d58ee9ca47d1e781b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripTextBox</type>
+        <definition>System.Windows.Forms.ToolStripTextBox projekt_grupowy.Form1.surnameToolStripTextBox</definition>
+        <argsstring></argsstring>
+        <name>surnameToolStripTextBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="707" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="707" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1adc479875a5c8304754edf8e6ca8a1526" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripButton</type>
+        <definition>System.Windows.Forms.ToolStripButton projekt_grupowy.Form1.searchSurnameToolStripButton</definition>
+        <argsstring></argsstring>
+        <name>searchSurnameToolStripButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="708" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="708" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1ae16d251fd6aa11c4a3d003af5d33d942" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox projekt_grupowy.Form1.groupBox1</definition>
+        <argsstring></argsstring>
+        <name>groupBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="709" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="709" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a9eb8c35cb7f0a02f8be95fec4cf334ec" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button projekt_grupowy.Form1.connect_button</definition>
+        <argsstring></argsstring>
+        <name>connect_button</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="710" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="710" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a6b98309ff33698252f62b8927caa5b56" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ComboBox</type>
+        <definition>System.Windows.Forms.ComboBox projekt_grupowy.Form1.ports_comboBox</definition>
+        <argsstring></argsstring>
+        <name>ports_comboBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="711" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="711" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a401a60352b64dc0dfe31ed26b2403ae2" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button projekt_grupowy.Form1.findPorts_button</definition>
+        <argsstring></argsstring>
+        <name>findPorts_button</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="712" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="712" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a5fc5aa9b066e856eb3e74dac0edab5b5" prot="private" static="no" mutable="no">
+        <type>System.IO.Ports.SerialPort</type>
+        <definition>System.IO.Ports.SerialPort projekt_grupowy.Form1.serialPort</definition>
+        <argsstring></argsstring>
+        <name>serialPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="713" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="713" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a888c361fe4d53593c88f9df07d14b9e3" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataVisualization.Charting.Chart</type>
+        <definition>System.Windows.Forms.DataVisualization.Charting.Chart projekt_grupowy.Form1.chart1</definition>
+        <argsstring></argsstring>
+        <name>chart1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="714" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="714" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a176ffd20b83807c815f6e299a2eb7912" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox projekt_grupowy.Form1.groupBox2</definition>
+        <argsstring></argsstring>
+        <name>groupBox2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="715" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="715" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1ad847a7d0af4224a389d95b7c9df70e6e" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button projekt_grupowy.Form1.plot_button</definition>
+        <argsstring></argsstring>
+        <name>plot_button</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="716" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="716" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1aa6c63c0ac5b9388029a49e814c628920" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Timer</type>
+        <definition>System.Windows.Forms.Timer projekt_grupowy.Form1.timer1</definition>
+        <argsstring></argsstring>
+        <name>timer1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="717" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="717" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a83171d7f1ced7511ca2a31699d05d763" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox projekt_grupowy.Form1.averageTextBox</definition>
+        <argsstring></argsstring>
+        <name>averageTextBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="718" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="718" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a365cc4cd33e845e8f9f010f98eaea1d5" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox projekt_grupowy.Form1.minTextBox</definition>
+        <argsstring></argsstring>
+        <name>minTextBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="719" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="719" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a260cc7833568b6a4ed1df23dc0964c98" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox projekt_grupowy.Form1.maxTextBox</definition>
+        <argsstring></argsstring>
+        <name>maxTextBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="720" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="720" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a3e020fed5b5780ae719d3086dfb3b54f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label projekt_grupowy.Form1.averageLabel</definition>
+        <argsstring></argsstring>
+        <name>averageLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="721" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="721" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a404949b651c222af3a95dc5abec411d5" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label projekt_grupowy.Form1.minLabel</definition>
+        <argsstring></argsstring>
+        <name>minLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="722" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="722" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1ac444b34621cde7d898d71985fb45f177" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label projekt_grupowy.Form1.maxLabel</definition>
+        <argsstring></argsstring>
+        <name>maxLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="723" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="723" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1aa0a39c67d68fd7beeece368860ad934c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projekt_grupowy.Form1.Form1</definition>
+        <argsstring>()</argsstring>
+        <name>Form1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="28" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="28" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1a4263962ce0476f46dd4899c935863934" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projekt_grupowy.Form1.~Form1</definition>
+        <argsstring>()</argsstring>
+        <name>~Form1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="44" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1a432a0394bd22d1c81cdd74cd9724fb11" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.Form1.get_availablePorts</definition>
+        <argsstring>()</argsstring>
+        <name>get_availablePorts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="49" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="49" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1af45e5dec255dd28d5c47ff5e491c058e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.Form1.connect_button_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>connect_button_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="56" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="56" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1aecd1d1bf9750ccb94a2356609c624a24" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.Form1.tableBindingNavigatorSaveItem_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>tableBindingNavigatorSaveItem_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="88" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="88" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1a1c0029d3fe5d2f7e226f27ff2ce3099d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.Form1.tableBindingNavigatorSaveItem_Click_1</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>tableBindingNavigatorSaveItem_Click_1</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="96" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="96" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1a4e2de585ce829d6341f20cc860c3bf84" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.Form1.tableBindingNavigatorSaveItem_Click_2</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>tableBindingNavigatorSaveItem_Click_2</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="104" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="104" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1ab9d2d08efc3c22c9ec5ce7ad1e1b135b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.Form1.Form1_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Form1_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="112" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="112" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1a795ea91ff0fca94e46ef45898516df93" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.Form1.searchSurnameToolStripButton_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>searchSurnameToolStripButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="119" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="119" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1ab59617bafe1ac0de09e50ac3a43d738e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.Form1.tableDataGridView_CellContentClick</definition>
+        <argsstring>(object sender, DataGridViewCellEventArgs e)</argsstring>
+        <name>tableDataGridView_CellContentClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DataGridViewCellEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="132" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="132" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1a129c97a62895627948c4dfa012ce9796" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.Form1.findPorts_button_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>findPorts_button_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="137" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="137" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1ac3f43111462d98ad42385d1b53ad7481" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.Form1.plot_button_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>plot_button_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="142" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="142" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1aa72285ce4f0aad6438f324408faadbed" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.Form1.timer1_Tick</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>timer1_Tick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="167" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="167" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1a457882a6c09caef478caee857d27ce1f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.Form1.serialPort_DataReceived</definition>
+        <argsstring>(object sender, SerialDataReceivedEventArgs e)</argsstring>
+        <name>serialPort_DataReceived</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>SerialDataReceivedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="181" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="181" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1a0b128b4b52fb59d259f7e003e8ef5c7f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.Form1.calculateCharacteristicValues</definition>
+        <argsstring>(string valueType)</argsstring>
+        <name>calculateCharacteristicValues</name>
+        <param>
+          <type>string</type>
+          <declname>valueType</declname>
+        </param>
+        <briefdescription>
+<para>Method calculates values like minimal, maximal and average. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>valueType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Informs method about type of values. It can be temperature or another value.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="198" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="198" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1a42c666e01bf18dcc2967c59cbefad665" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projekt_grupowy.Form1.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="29" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="29" bodyend="670"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1a87f3ce54094d8d3c419685438b224c9d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void projekt_grupowy.Form1.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="14" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The main form of the application. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>Form</label>
+      </node>
+      <node id="8">
+        <label>projekt_grupowy.Form1</label>
+        <link refid="classprojekt__grupowy_1_1_form1"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>Form</label>
+      </node>
+      <node id="10">
+        <label>projekt_grupowy.Form1</label>
+        <link refid="classprojekt__grupowy_1_1_form1"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="projekt_grupowy/Form1.cs" line="19" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="18" bodyend="214"/>
+    <listofallmembers>
+      <member refid="classprojekt__grupowy_1_1_form1_1a3e020fed5b5780ae719d3086dfb3b54f" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>averageLabel</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1abaa1a71ee44d3650be601202bb542f27" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>averageTemperature</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a83171d7f1ced7511ca2a31699d05d763" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>averageTextBox</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a89775399e83240a7b300af37b181be00" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>bindingNavigatorAddNewItem</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1af79bd5f013d863ff4c5c0b9c8f3f9c78" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>bindingNavigatorCountItem</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1aa2afe420630352b733813885cf06f4f2" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>bindingNavigatorDeleteItem</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1ab39b45b8585bdde7a70e8d63e79404bd" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>bindingNavigatorMoveFirstItem</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a6fcc7469a6977dc4b2f06013734f7536" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>bindingNavigatorMoveLastItem</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1aeeeab9b224027b449996e5431a8fd6eb" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>bindingNavigatorMoveNextItem</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1af8ce4a8ce84faa52c301e8f87ea13f82" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>bindingNavigatorMovePreviousItem</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a2b846e3d8a355e101a8b3dca359791f2" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>bindingNavigatorPositionItem</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a55f11d1177e63c312ab0b488e1b6544b" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>bindingNavigatorSeparator</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a875b707bd33390db155f8e7cd527ee6d" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>bindingNavigatorSeparator1</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1af71d2a70453faf0d174609b8fbdb75d4" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>bindingNavigatorSeparator2</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a59a43b722d965e3b94e78682b48c5b6c" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>brandTextBox</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a928db575518b307ea01142933b8e9d9c" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>buff</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a0b128b4b52fb59d259f7e003e8ef5c7f" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>calculateCharacteristicValues</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a888c361fe4d53593c88f9df07d14b9e3" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>chart1</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a5db4cddadbff7502e1455555bee37199" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>Client_groupBox</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a99b26e40e645417a521d6c1ba36f8ad9" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>components</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a9eb8c35cb7f0a02f8be95fec4cf334ec" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>connect_button</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1af45e5dec255dd28d5c47ff5e491c058e" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>connect_button_Click</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1aef5ec049fcf126a9ec67370581d38518" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>customerIDTextBox</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a8d2585264acf097eeb15046ab314c9ba" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>databaseDataSet</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1affd615c956abbf3bbf249ce4c4994a0c" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>dataGridViewTextBoxColumn1</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a1a189ffc56acd2d23e0162be9ee23bb5" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>dataGridViewTextBoxColumn2</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a15999434744104f8abe4b25b481d0a7d" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>dataGridViewTextBoxColumn3</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a9d7ee7315cf33ba3e37437009ae8bcde" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>dataGridViewTextBoxColumn4</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a58426326b99ad2cd1dd4cb370c346291" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>dataGridViewTextBoxColumn5</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a328ea0de24fb1fbf7aae6cf05f77bac6" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>dataGridViewTextBoxColumn6</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a87f3ce54094d8d3c419685438b224c9d" prot="protected" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>Dispose</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a401a60352b64dc0dfe31ed26b2403ae2" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>findPorts_button</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a129c97a62895627948c4dfa012ce9796" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>findPorts_button_Click</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1aa0a39c67d68fd7beeece368860ad934c" prot="public" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>Form1</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1ab9d2d08efc3c22c9ec5ce7ad1e1b135b" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>Form1_Load</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a432a0394bd22d1c81cdd74cd9724fb11" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>get_availablePorts</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1ae16d251fd6aa11c4a3d003af5d33d942" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>groupBox1</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a176ffd20b83807c815f6e299a2eb7912" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>groupBox2</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a42c666e01bf18dcc2967c59cbefad665" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>InitializeComponent</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1ac444b34621cde7d898d71985fb45f177" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>maxLabel</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a14c043c3cdfaa9d15a9a13429b231148" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>maxTemperature</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a260cc7833568b6a4ed1df23dc0964c98" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>maxTextBox</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a404949b651c222af3a95dc5abec411d5" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>minLabel</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a6e2712a92e9ab63ec8070f3a2732f3af" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>minTemperature</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a365cc4cd33e845e8f9f010f98eaea1d5" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>minTextBox</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1af59fc2a259c1c73cf4984e553165e55e" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>modelTextBox</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1af1af1541206d490f0e69d1010e643f91" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>nameTextBox</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1aae5eee82a825e2d3eb59d18fb542183e" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>phoneTextBox</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1ad847a7d0af4224a389d95b7c9df70e6e" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>plot_button</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1ac3f43111462d98ad42385d1b53ad7481" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>plot_button_Click</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a6b98309ff33698252f62b8927caa5b56" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>ports_comboBox</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1aadadc854efc66d2f268323efd895e88f" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>samples</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a2ac565c4b94b0d7e683b7d5800ac1f62" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>searchSurnameToolStrip</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1adc479875a5c8304754edf8e6ca8a1526" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>searchSurnameToolStripButton</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a795ea91ff0fca94e46ef45898516df93" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>searchSurnameToolStripButton_Click</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a5fc5aa9b066e856eb3e74dac0edab5b5" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>serialPort</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a457882a6c09caef478caee857d27ce1f" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>serialPort_DataReceived</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a326665ea3d88305b73c09eaad6b60254" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>surnameTextBox</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1ac6fe9baf748f92cdb4c1684b85ed0c9a" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>surnameToolStripLabel</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1af8615ce8d448522d58ee9ca47d1e781b" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>surnameToolStripTextBox</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1aec119ed8acb4789f594123093554d30b" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>tableAdapterManager</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a55a3ba37945f0888bb7f5250fd8f2396" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>tableBindingNavigator</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1ab10e786006837640dedba6739f1781ae" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>tableBindingNavigatorSaveItem</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1aecd1d1bf9750ccb94a2356609c624a24" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>tableBindingNavigatorSaveItem_Click</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a1c0029d3fe5d2f7e226f27ff2ce3099d" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>tableBindingNavigatorSaveItem_Click_1</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a4e2de585ce829d6341f20cc860c3bf84" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>tableBindingNavigatorSaveItem_Click_2</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a8dde747db9e56449119a9db9b45f8638" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>tableBindingSource</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a3a9b45dc3b48d618e2f8da99881e483a" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>tableDataGridView</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1ab59617bafe1ac0de09e50ac3a43d738e" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>tableDataGridView_CellContentClick</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a284d7aa209f1a986804618bb3420f4ac" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>tableTableAdapter</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1acfb7cf0972206ed39f3100c4bdf59e8e" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>temperature</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1aa6c63c0ac5b9388029a49e814c628920" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>timer1</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1aa72285ce4f0aad6438f324408faadbed" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>timer1_Tick</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1ab5913a19a98bdc0643fea340f6a534bd" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>X_Array</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1a4263962ce0476f46dd4899c935863934" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>~Form1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

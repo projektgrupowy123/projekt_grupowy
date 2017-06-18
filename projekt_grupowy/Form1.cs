@@ -12,11 +12,18 @@ using System.IO.Ports;
 
 namespace projekt_grupowy
 {
+    /// <summary>
+    /// The main form of the application.
+    /// </summary>
     public partial class Form1 : Form
     {
         int[] temperature = new int[20];
+        int[] maxTemperature = new int[20];
+        int[] minTemperature = new int[20]; 
+        double[] averageTemperature = new double[20];
         int[] X_Array = new int[20];
         char[] buff = new char[1];
+        int samples = 0;
 
         double meanTemp = 0;
         double sumTemp = 0;
@@ -163,15 +170,14 @@ namespace projekt_grupowy
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-
             for (int i = 0; i < 19; i += 1)
             {
                 X_Array[i] = X_Array[i + 1];
                 temperature[i] = temperature[i + 1];
             }
             X_Array[19] = X_Array[19] + 1;
-
-            serialPort.Write("AT+RD\r");
+            Random rand = new Random();
+            serialPort.Write(rand.Next(10).ToString());
 
 
         }
@@ -179,7 +185,12 @@ namespace projekt_grupowy
         private void serialPort_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
             serialPort.Read(buff, 0, 1);
+            samples++;
             temperature[19] = buff[0]-48;
+            calculateCharacteristicValues("Temperature");
+            minTextBox.Text = minTemperature[19].ToString();
+            maxTextBox.Text = maxTemperature[19].ToString();
+            averageTextBox.Text = averageTemperature[19].ToString("0.####");
             chart1.Series["Series1"].Points.DataBindXY(X_Array, temperature);
         }
 
@@ -193,7 +204,24 @@ namespace projekt_grupowy
            textBox2.Text = meanTemp.ToString();
         }
 
-     
+        /// <summary>
+        /// Method calculates values like minimal, maximal and average.
+        /// </summary>
+        /// <param name="valueType">Informs method about type of values. It can be temperature or another value.</param>
+        private void calculateCharacteristicValues(string valueType) {
+            if (valueType.ToLower() == "temperature") {
+                if (temperature[19] < minTemperature[19]) minTemperature[19] = temperature[19];
+                if (temperature[19] > maxTemperature[19]) maxTemperature[19] = temperature[19];
+                if (samples == 1)
+                {
+                    averageTemperature[19] = temperature[19];
+                }
+                else
+                {
+                    averageTemperature[19] = (((double)averageTemperature[19] * (samples - 1)) + (double)temperature[19]) / samples;
+                }
+            }
+        }
     }
 }
 		

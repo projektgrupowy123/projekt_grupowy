@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer" kind="class" language="C#" prot="private">
+    <compoundname>projekt_grupowy::databaseDataSet1TableAdapters::TableAdapterManager::SelfReferenceComparer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">global::SystemCollections::Generic::IComparer&lt; global::System.Data.DataRow &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1a2b047ef7918875c5215586e7584aee4e" prot="private" static="no" mutable="no">
+        <type>global::System.Data.DataRelation</type>
+        <definition>global::System.Data.DataRelation projekt_grupowy.databaseDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer._relation</definition>
+        <argsstring></argsstring>
+        <name>_relation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="1621" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="1621" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1a1cfc629749aa53437cfc182095bf6fdd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int projekt_grupowy.databaseDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer._childFirst</definition>
+        <argsstring></argsstring>
+        <name>_childFirst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="1623" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="1623" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1a6eb85fe816701bdbbb1381733e88ec92" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projekt_grupowy.databaseDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer.SelfReferenceComparer</definition>
+        <argsstring>(global::System.Data.DataRelation relation, bool childFirst)</argsstring>
+        <name>SelfReferenceComparer</name>
+        <param>
+          <type>global::System.Data.DataRelation</type>
+          <declname>relation</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>childFirst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="1627" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="1627" bodyend="1635"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1a8a72358171737626dfd5857564860edb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Data.DataRow</type>
+        <definition>global::System.Data.DataRow projekt_grupowy.databaseDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer.GetRoot</definition>
+        <argsstring>(global::System.Data.DataRow row, out int distance)</argsstring>
+        <name>GetRoot</name>
+        <param>
+          <type>global::System.Data.DataRow</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="1639" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="1639" bodyend="1674"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1af8aace6cc4f40891f5166109b23e4d0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int projekt_grupowy.databaseDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer.Compare</definition>
+        <argsstring>(global::System.Data.DataRow row1, global::System.Data.DataRow row2)</argsstring>
+        <name>Compare</name>
+        <param>
+          <type>global::System.Data.DataRow</type>
+          <declname>row1</declname>
+        </param>
+        <param>
+          <type>global::System.Data.DataRow</type>
+          <declname>row2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="1678" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="1678" bodyend="1708"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Used to sort self-referenced table&apos;s rows /summary&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="22">
+        <label>global::SystemCollections::Generic::IComparer&lt; global::System.Data.DataRow &gt;</label>
+      </node>
+      <node id="20">
+        <label>projekt_grupowy.databaseDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer</label>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="25">
+        <label>global::SystemCollections::Generic::IComparer&lt; global::System.Data.DataRow &gt;</label>
+      </node>
+      <node id="23">
+        <label>projekt_grupowy.databaseDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer</label>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="projekt_grupowy/databaseDataSet1.Designer.cs" line="1619" column="1" bodyfile="projekt_grupowy/databaseDataSet1.Designer.cs" bodystart="1619" bodyend="1709"/>
+    <listofallmembers>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1a1cfc629749aa53437cfc182095bf6fdd" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1TableAdapters::TableAdapterManager::SelfReferenceComparer</scope><name>_childFirst</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1a2b047ef7918875c5215586e7584aee4e" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1TableAdapters::TableAdapterManager::SelfReferenceComparer</scope><name>_relation</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1af8aace6cc4f40891f5166109b23e4d0d" prot="public" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1TableAdapters::TableAdapterManager::SelfReferenceComparer</scope><name>Compare</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1a8a72358171737626dfd5857564860edb" prot="private" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1TableAdapters::TableAdapterManager::SelfReferenceComparer</scope><name>GetRoot</name></member>
+      <member refid="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1a6eb85fe816701bdbbb1381733e88ec92" prot="package" virt="non-virtual"><scope>projekt_grupowy::databaseDataSet1TableAdapters::TableAdapterManager::SelfReferenceComparer</scope><name>SelfReferenceComparer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
