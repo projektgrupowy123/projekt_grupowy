@@ -81,7 +81,7 @@
             this.serialPort = new System.IO.Ports.SerialPort(this.components);
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            //this.textBox2 = new System.Windows.Forms.TextBox();
             this.plot_button = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.maxLabel = new System.Windows.Forms.Label();
@@ -577,12 +577,12 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(17, 340);
+            /*this.textBox2.Location = new System.Drawing.Point(17, 340);
             this.textBox2.Name = "textBox2";
             this.textBox2.ShortcutsEnabled = false;
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 6;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);*/
             // 
             // plot_button
             // 

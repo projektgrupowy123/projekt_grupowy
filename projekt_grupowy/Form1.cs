@@ -194,7 +194,7 @@ namespace projekt_grupowy
             chart1.Series["Series1"].Points.DataBindXY(X_Array, temperature);
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        /*private void textBox2_TextChanged(object sender, EventArgs e)
         {
             for (int i = 0; i < 20; i++)
             {
@@ -202,7 +202,7 @@ namespace projekt_grupowy
             }
             meanTemp /= 20;
            textBox2.Text = meanTemp.ToString();
-        }
+        }*/
 
         /// <summary>
         /// Method calculates values like minimal, maximal and average.
