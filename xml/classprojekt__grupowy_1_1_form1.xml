@@ -102,6 +102,34 @@
         </inbodydescription>
         <location file="projekt_grupowy/Form1.cs" line="26" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="26" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1af64d1755c542533e4567b3bbf905dffb" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double projekt_grupowy.Form1.meanTemp</definition>
+        <argsstring></argsstring>
+        <name>meanTemp</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="28" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1aa9e548968ccad5d7e0f95689d0061795" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double projekt_grupowy.Form1.sumTemp</definition>
+        <argsstring></argsstring>
+        <name>sumTemp</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projekt_grupowy/Form1.cs" line="29" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a99b26e40e645417a521d6c1ba36f8ad9" prot="private" static="no" mutable="no">
         <type>System.ComponentModel.IContainer</type>
         <definition>System.ComponentModel.IContainer projekt_grupowy.Form1.components</definition>
@@ -127,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="674" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="674" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="686" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="686" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a8d2585264acf097eeb15046ab314c9ba" prot="private" static="no" mutable="no">
         <type><ref refid="classprojekt__grupowy_1_1database_data_set" kindref="compound">databaseDataSet</ref></type>
@@ -140,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="675" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="675" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="687" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="687" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a8dde747db9e56449119a9db9b45f8638" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.BindingSource</type>
@@ -153,7 +181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="676" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="676" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="688" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="688" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a284d7aa209f1a986804618bb3420f4ac" prot="private" static="no" mutable="no">
         <type><ref refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter" kindref="compound">databaseDataSetTableAdapters.TableTableAdapter</ref></type>
@@ -166,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="677" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="677" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="689" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="689" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1aec119ed8acb4789f594123093554d30b" prot="private" static="no" mutable="no">
         <type><ref refid="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager" kindref="compound">databaseDataSetTableAdapters.TableAdapterManager</ref></type>
@@ -179,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="678" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="678" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="690" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="690" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a55a3ba37945f0888bb7f5250fd8f2396" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.BindingNavigator</type>
@@ -192,7 +220,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="679" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="679" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="691" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="691" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a89775399e83240a7b300af37b181be00" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.ToolStripButton</type>
@@ -205,7 +233,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="680" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="680" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="692" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="692" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1af79bd5f013d863ff4c5c0b9c8f3f9c78" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.ToolStripLabel</type>
@@ -218,7 +246,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="681" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="681" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="693" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="693" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1aa2afe420630352b733813885cf06f4f2" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.ToolStripButton</type>
@@ -231,7 +259,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="682" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="682" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="694" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="694" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1ab39b45b8585bdde7a70e8d63e79404bd" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.ToolStripButton</type>
@@ -244,7 +272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="683" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="683" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="695" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="695" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1af8ce4a8ce84faa52c301e8f87ea13f82" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.ToolStripButton</type>
@@ -257,7 +285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="684" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="684" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="696" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="696" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a55f11d1177e63c312ab0b488e1b6544b" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.ToolStripSeparator</type>
@@ -270,7 +298,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="685" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="685" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="697" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="697" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a2b846e3d8a355e101a8b3dca359791f2" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.ToolStripTextBox</type>
@@ -283,7 +311,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="686" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="686" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="698" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="698" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a875b707bd33390db155f8e7cd527ee6d" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.ToolStripSeparator</type>
@@ -296,7 +324,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="687" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="687" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="699" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="699" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1aeeeab9b224027b449996e5431a8fd6eb" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.ToolStripButton</type>
@@ -309,7 +337,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="688" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="688" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="700" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="700" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a6fcc7469a6977dc4b2f06013734f7536" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.ToolStripButton</type>
@@ -322,7 +350,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="689" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="689" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="701" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="701" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1af71d2a70453faf0d174609b8fbdb75d4" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.ToolStripSeparator</type>
@@ -335,7 +363,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="690" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="690" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="702" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="702" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1ab10e786006837640dedba6739f1781ae" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.ToolStripButton</type>
@@ -348,7 +376,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="691" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="691" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="703" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="703" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1aef5ec049fcf126a9ec67370581d38518" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.TextBox</type>
@@ -361,7 +389,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="692" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="692" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="704" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="704" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1af1af1541206d490f0e69d1010e643f91" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.TextBox</type>
@@ -374,7 +402,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="693" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="693" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="705" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="705" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a326665ea3d88305b73c09eaad6b60254" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.TextBox</type>
@@ -387,7 +415,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="694" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="694" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="706" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="706" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1aae5eee82a825e2d3eb59d18fb542183e" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.TextBox</type>
@@ -400,7 +428,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="695" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="695" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="707" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="707" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a59a43b722d965e3b94e78682b48c5b6c" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.TextBox</type>
@@ -413,7 +441,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="696" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="696" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="708" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="708" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1af59fc2a259c1c73cf4984e553165e55e" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.TextBox</type>
@@ -426,7 +454,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="697" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="697" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="709" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="709" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a3a9b45dc3b48d618e2f8da99881e483a" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridView</type>
@@ -439,7 +467,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="698" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="698" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="710" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="710" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1affd615c956abbf3bbf249ce4c4994a0c" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -452,7 +480,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="699" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="699" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="711" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="711" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a1a189ffc56acd2d23e0162be9ee23bb5" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -465,7 +493,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="700" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="700" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="712" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="712" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a15999434744104f8abe4b25b481d0a7d" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -478,7 +506,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="701" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="701" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="713" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="713" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a9d7ee7315cf33ba3e37437009ae8bcde" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -491,7 +519,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="702" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="702" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="714" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="714" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a58426326b99ad2cd1dd4cb370c346291" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -504,7 +532,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="703" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="703" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="715" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="715" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a328ea0de24fb1fbf7aae6cf05f77bac6" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -517,7 +545,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="704" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="704" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="716" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="716" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a2ac565c4b94b0d7e683b7d5800ac1f62" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.ToolStrip</type>
@@ -530,7 +558,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="705" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="705" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="717" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="717" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1ac6fe9baf748f92cdb4c1684b85ed0c9a" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.ToolStripLabel</type>
@@ -543,7 +571,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="706" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="706" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="718" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="718" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1af8615ce8d448522d58ee9ca47d1e781b" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.ToolStripTextBox</type>
@@ -556,7 +584,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="707" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="707" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="719" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="719" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1adc479875a5c8304754edf8e6ca8a1526" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.ToolStripButton</type>
@@ -569,7 +597,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="708" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="708" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="720" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="720" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1ae16d251fd6aa11c4a3d003af5d33d942" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.GroupBox</type>
@@ -582,7 +610,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="709" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="709" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="721" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="721" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a9eb8c35cb7f0a02f8be95fec4cf334ec" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Button</type>
@@ -595,7 +623,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="710" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="710" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="722" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="722" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a6b98309ff33698252f62b8927caa5b56" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.ComboBox</type>
@@ -608,7 +636,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="711" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="711" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="723" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="723" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a401a60352b64dc0dfe31ed26b2403ae2" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Button</type>
@@ -621,7 +649,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="712" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="712" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="724" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="724" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a5fc5aa9b066e856eb3e74dac0edab5b5" prot="private" static="no" mutable="no">
         <type>System.IO.Ports.SerialPort</type>
@@ -634,7 +662,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="713" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="713" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="725" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="725" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a888c361fe4d53593c88f9df07d14b9e3" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataVisualization.Charting.Chart</type>
@@ -647,7 +675,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="714" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="714" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="726" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="726" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a176ffd20b83807c815f6e299a2eb7912" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.GroupBox</type>
@@ -660,7 +688,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="715" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="715" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="727" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="727" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1ad847a7d0af4224a389d95b7c9df70e6e" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Button</type>
@@ -673,7 +701,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="716" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="716" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="728" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="728" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1aa6c63c0ac5b9388029a49e814c628920" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Timer</type>
@@ -686,7 +714,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="717" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="717" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="729" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="729" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a83171d7f1ced7511ca2a31699d05d763" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.TextBox</type>
@@ -699,7 +727,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="718" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="718" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="730" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="730" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a365cc4cd33e845e8f9f010f98eaea1d5" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.TextBox</type>
@@ -712,7 +740,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="719" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="719" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="731" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="731" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a260cc7833568b6a4ed1df23dc0964c98" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.TextBox</type>
@@ -725,7 +753,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="720" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="720" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="732" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="732" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a3e020fed5b5780ae719d3086dfb3b54f" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -738,7 +766,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="721" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="721" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="733" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="733" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1a404949b651c222af3a95dc5abec411d5" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -751,7 +779,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="722" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="722" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="734" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="734" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprojekt__grupowy_1_1_form1_1ac444b34621cde7d898d71985fb45f177" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -764,7 +792,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="723" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="723" bodyend="-1"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="735" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="735" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -779,7 +807,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.cs" line="28" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="28" bodyend="42"/>
+        <location file="projekt_grupowy/Form1.cs" line="30" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="30" bodyend="44"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -794,7 +822,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.cs" line="44" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="44" bodyend="47"/>
+        <location file="projekt_grupowy/Form1.cs" line="46" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="46" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1a432a0394bd22d1c81cdd74cd9724fb11" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -807,7 +835,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.cs" line="49" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="49" bodyend="54"/>
+        <location file="projekt_grupowy/Form1.cs" line="51" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="51" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1af45e5dec255dd28d5c47ff5e491c058e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -828,7 +856,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.cs" line="56" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="56" bodyend="85"/>
+        <location file="projekt_grupowy/Form1.cs" line="60" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="60" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1aecd1d1bf9750ccb94a2356609c624a24" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -849,7 +877,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.cs" line="88" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="88" bodyend="94"/>
+        <location file="projekt_grupowy/Form1.cs" line="92" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="92" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1a1c0029d3fe5d2f7e226f27ff2ce3099d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -870,7 +898,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.cs" line="96" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="96" bodyend="102"/>
+        <location file="projekt_grupowy/Form1.cs" line="100" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="100" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1a4e2de585ce829d6341f20cc860c3bf84" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -891,7 +919,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.cs" line="104" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="104" bodyend="110"/>
+        <location file="projekt_grupowy/Form1.cs" line="108" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="108" bodyend="114"/>
       </memberdef>
       <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1ab9d2d08efc3c22c9ec5ce7ad1e1b135b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -912,7 +940,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.cs" line="112" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="112" bodyend="117"/>
+        <location file="projekt_grupowy/Form1.cs" line="116" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="116" bodyend="121"/>
       </memberdef>
       <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1a795ea91ff0fca94e46ef45898516df93" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -933,7 +961,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.cs" line="119" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="119" bodyend="130"/>
+        <location file="projekt_grupowy/Form1.cs" line="123" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="123" bodyend="134"/>
       </memberdef>
       <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1ab59617bafe1ac0de09e50ac3a43d738e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -954,7 +982,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.cs" line="132" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="132" bodyend="135"/>
+        <location file="projekt_grupowy/Form1.cs" line="136" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="136" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1a129c97a62895627948c4dfa012ce9796" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -975,7 +1003,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.cs" line="137" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="137" bodyend="140"/>
+        <location file="projekt_grupowy/Form1.cs" line="141" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="141" bodyend="144"/>
       </memberdef>
       <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1ac3f43111462d98ad42385d1b53ad7481" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -996,7 +1024,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.cs" line="142" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="142" bodyend="165"/>
+        <location file="projekt_grupowy/Form1.cs" line="146" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="146" bodyend="169"/>
       </memberdef>
       <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1aa72285ce4f0aad6438f324408faadbed" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1017,7 +1045,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.cs" line="167" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="167" bodyend="179"/>
+        <location file="projekt_grupowy/Form1.cs" line="171" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="171" bodyend="183"/>
       </memberdef>
       <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1a457882a6c09caef478caee857d27ce1f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1038,7 +1066,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.cs" line="181" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="181" bodyend="191"/>
+        <location file="projekt_grupowy/Form1.cs" line="185" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="185" bodyend="195"/>
       </memberdef>
       <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1a0b128b4b52fb59d259f7e003e8ef5c7f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1063,7 +1091,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.cs" line="198" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="198" bodyend="212"/>
+        <location file="projekt_grupowy/Form1.cs" line="204" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="204" bodyend="217"/>
       </memberdef>
       <memberdef kind="function" id="classprojekt__grupowy_1_1_form1_1a42c666e01bf18dcc2967c59cbefad665" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1076,7 +1104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="projekt_grupowy/Form1.Designer.cs" line="29" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="29" bodyend="670"/>
+        <location file="projekt_grupowy/Form1.Designer.cs" line="31" column="1" bodyfile="projekt_grupowy/Form1.Designer.cs" bodystart="31" bodyend="682"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -1111,28 +1139,82 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="9">
+      <node id="15">
         <label>Form</label>
       </node>
-      <node id="8">
+      <node id="14">
         <label>projekt_grupowy.Form1</label>
         <link refid="classprojekt__grupowy_1_1_form1"/>
-        <childnode refid="9" relation="public-inheritance">
+        <childnode refid="15" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="11">
+      <node id="22">
+        <label>projekt_grupowy.databaseDataSet.TableDataTable</label>
+        <link refid="classprojekt__grupowy_1_1database_data_set_1_1_table_data_table"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+        <childnode refid="21" relation="usage">
+          <edgelabel>columnModel</edgelabel>
+          <edgelabel>columnPhone</edgelabel>
+          <edgelabel>columnName</edgelabel>
+          <edgelabel>columnBrand</edgelabel>
+          <edgelabel>columnCustomerID</edgelabel>
+          <edgelabel>columnSurname</edgelabel>
+        </childnode>
+      </node>
+      <node id="17">
         <label>Form</label>
       </node>
-      <node id="10">
+      <node id="23">
+        <label>global::SystemData::TypedTableBase&lt; TableRow &gt;</label>
+      </node>
+      <node id="19">
+        <label>projekt_grupowy.databaseDataSet</label>
+        <link refid="classprojekt__grupowy_1_1database_data_set"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+        <childnode refid="21" relation="usage">
+          <edgelabel>_schemaSerializationMode</edgelabel>
+        </childnode>
+        <childnode refid="22" relation="usage">
+          <edgelabel>tableTable</edgelabel>
+        </childnode>
+      </node>
+      <node id="21">
+        <label>Data</label>
+      </node>
+      <node id="18">
+        <label>System</label>
+      </node>
+      <node id="20">
+        <label>global::SystemData::DataSet</label>
+      </node>
+      <node id="16">
         <label>projekt_grupowy.Form1</label>
         <link refid="classprojekt__grupowy_1_1_form1"/>
-        <childnode refid="11" relation="public-inheritance">
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+        <childnode refid="18" relation="usage">
+          <edgelabel>dataGridViewTextBoxColumn2</edgelabel>
+          <edgelabel>bindingNavigatorCountItem</edgelabel>
+          <edgelabel>timer1</edgelabel>
+          <edgelabel>dataGridViewTextBoxColumn3</edgelabel>
+          <edgelabel>nameTextBox</edgelabel>
+          <edgelabel>bindingNavigatorPositionItem</edgelabel>
+          <edgelabel>tableBindingSource</edgelabel>
+          <edgelabel>connect_button</edgelabel>
+          <edgelabel>dataGridViewTextBoxColumn4</edgelabel>
+          <edgelabel>tableDataGridView</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>databaseDataSet</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="projekt_grupowy/Form1.cs" line="19" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="18" bodyend="214"/>
+    <location file="projekt_grupowy/Form1.cs" line="19" column="1" bodyfile="projekt_grupowy/Form1.cs" bodystart="18" bodyend="218"/>
     <listofallmembers>
       <member refid="classprojekt__grupowy_1_1_form1_1a3e020fed5b5780ae719d3086dfb3b54f" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>averageLabel</name></member>
       <member refid="classprojekt__grupowy_1_1_form1_1abaa1a71ee44d3650be601202bb542f27" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>averageTemperature</name></member>
@@ -1176,6 +1258,7 @@
       <member refid="classprojekt__grupowy_1_1_form1_1ac444b34621cde7d898d71985fb45f177" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>maxLabel</name></member>
       <member refid="classprojekt__grupowy_1_1_form1_1a14c043c3cdfaa9d15a9a13429b231148" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>maxTemperature</name></member>
       <member refid="classprojekt__grupowy_1_1_form1_1a260cc7833568b6a4ed1df23dc0964c98" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>maxTextBox</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1af64d1755c542533e4567b3bbf905dffb" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>meanTemp</name></member>
       <member refid="classprojekt__grupowy_1_1_form1_1a404949b651c222af3a95dc5abec411d5" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>minLabel</name></member>
       <member refid="classprojekt__grupowy_1_1_form1_1a6e2712a92e9ab63ec8070f3a2732f3af" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>minTemperature</name></member>
       <member refid="classprojekt__grupowy_1_1_form1_1a365cc4cd33e845e8f9f010f98eaea1d5" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>minTextBox</name></member>
@@ -1191,6 +1274,7 @@
       <member refid="classprojekt__grupowy_1_1_form1_1a795ea91ff0fca94e46ef45898516df93" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>searchSurnameToolStripButton_Click</name></member>
       <member refid="classprojekt__grupowy_1_1_form1_1a5fc5aa9b066e856eb3e74dac0edab5b5" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>serialPort</name></member>
       <member refid="classprojekt__grupowy_1_1_form1_1a457882a6c09caef478caee857d27ce1f" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>serialPort_DataReceived</name></member>
+      <member refid="classprojekt__grupowy_1_1_form1_1aa9e548968ccad5d7e0f95689d0061795" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>sumTemp</name></member>
       <member refid="classprojekt__grupowy_1_1_form1_1a326665ea3d88305b73c09eaad6b60254" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>surnameTextBox</name></member>
       <member refid="classprojekt__grupowy_1_1_form1_1ac6fe9baf748f92cdb4c1684b85ed0c9a" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>surnameToolStripLabel</name></member>
       <member refid="classprojekt__grupowy_1_1_form1_1af8615ce8d448522d58ee9ca47d1e781b" prot="private" virt="non-virtual"><scope>projekt_grupowy::Form1</scope><name>surnameToolStripTextBox</name></member>

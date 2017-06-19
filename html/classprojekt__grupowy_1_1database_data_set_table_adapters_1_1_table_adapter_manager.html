@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>OBD Doctor: projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager Class Reference</title>
+<title>ODB Doctor: projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">OBD Doctor
+   <div id="projectname">ODB Doctor
    </div>
   </td>
  </tr>
@@ -68,6 +68,8 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">projekt_grupowy.databaseDataSetTableAdapters.TableAdapterManager Class Reference</div>  </div>
@@ -85,6 +87,12 @@ Inheritance diagram for projekt_grupowy.databaseDataSetTableAdapters.TableAdapte
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer.html">SelfReferenceComparer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to sort self-referenced table's rows /summary&gt;  <a href="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a28f63071f27298d15ff7cdcac275d946"><td class="memItemLeft" align="right" valign="top"><a id="a28f63071f27298d15ff7cdcac275d946"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager.html#a28f63071f27298d15ff7cdcac275d946">UpdateOrderOption</a> { <b>InsertUpdateDelete</b> = 0, 
@@ -126,6 +134,40 @@ global::System.Data.IDbConnection&#160;</td><td class="memItemRight" valign="bot
 <tr class="memitem:a4077699bf3ac701107fa0c4f3c24fbb4"><td class="memItemLeft" align="right" valign="top"><a id="a4077699bf3ac701107fa0c4f3c24fbb4"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>TableAdapterInstanceCount</b><code> [get]</code></td></tr>
 <tr class="separator:a4077699bf3ac701107fa0c4f3c24fbb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a77b6795abbfb00608bbb167d18f767bb"><td class="memItemLeft" align="right" valign="top"><a id="a77b6795abbfb00608bbb167d18f767bb"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager.html#a77b6795abbfb00608bbb167d18f767bb">UpdateUpdatedRows</a> (<a class="el" href="classprojekt__grupowy_1_1database_data_set.html">databaseDataSet</a> dataSet, global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt; allChangedRows, global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt; allAddedRows)</td></tr>
+<tr class="memdesc:a77b6795abbfb00608bbb167d18f767bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update rows in top-down order. /summary&gt; <br /></td></tr>
+<tr class="separator:a77b6795abbfb00608bbb167d18f767bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcd630a87a061a34bbedff5ff2187362"><td class="memItemLeft" align="right" valign="top"><a id="abcd630a87a061a34bbedff5ff2187362"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager.html#abcd630a87a061a34bbedff5ff2187362">UpdateInsertedRows</a> (<a class="el" href="classprojekt__grupowy_1_1database_data_set.html">databaseDataSet</a> dataSet, global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt; allAddedRows)</td></tr>
+<tr class="memdesc:abcd630a87a061a34bbedff5ff2187362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert rows in top-down order. /summary&gt; <br /></td></tr>
+<tr class="separator:abcd630a87a061a34bbedff5ff2187362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fc063d52b43843670a66a7dfd93ae1d"><td class="memItemLeft" align="right" valign="top"><a id="a7fc063d52b43843670a66a7dfd93ae1d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager.html#a7fc063d52b43843670a66a7dfd93ae1d">UpdateDeletedRows</a> (<a class="el" href="classprojekt__grupowy_1_1database_data_set.html">databaseDataSet</a> dataSet, global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt; allChangedRows)</td></tr>
+<tr class="memdesc:a7fc063d52b43843670a66a7dfd93ae1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete rows in bottom-up order. /summary&gt; <br /></td></tr>
+<tr class="separator:a7fc063d52b43843670a66a7dfd93ae1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a318a94058904bc5115c534fa8e966a7c"><td class="memItemLeft" align="right" valign="top"><a id="a318a94058904bc5115c534fa8e966a7c"></a>
+global::System.Data.DataRow []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager.html#a318a94058904bc5115c534fa8e966a7c">GetRealUpdatedRows</a> (global::System.Data.DataRow[] updatedRows, global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt; allAddedRows)</td></tr>
+<tr class="memdesc:a318a94058904bc5115c534fa8e966a7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first /summary&gt; <br /></td></tr>
+<tr class="separator:a318a94058904bc5115c534fa8e966a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ac220d5dfde5cb70aa9952511c4b0ca45"><td class="memItemLeft" align="right" valign="top"><a id="ac220d5dfde5cb70aa9952511c4b0ca45"></a>
+<a class="el" href="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager.html#a28f63071f27298d15ff7cdcac275d946">UpdateOrderOption</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_updateOrder</b></td></tr>
+<tr class="separator:ac220d5dfde5cb70aa9952511c4b0ca45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e835af059b99254c2dd9369800be977"><td class="memItemLeft" align="right" valign="top"><a id="a0e835af059b99254c2dd9369800be977"></a>
+<a class="el" href="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_table_adapter.html">TableTableAdapter</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_tableTableAdapter</b></td></tr>
+<tr class="separator:a0e835af059b99254c2dd9369800be977"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a885d556f7e1370fdb80f0503ee322726"><td class="memItemLeft" align="right" valign="top"><a id="a885d556f7e1370fdb80f0503ee322726"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_backupDataSetBeforeUpdate</b></td></tr>
+<tr class="separator:a885d556f7e1370fdb80f0503ee322726"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a112db4cf5282c710755df4a39b0b0bf0"><td class="memItemLeft" align="right" valign="top"><a id="a112db4cf5282c710755df4a39b0b0bf0"></a>
+global::System.Data.IDbConnection&#160;</td><td class="memItemRight" valign="bottom"><b>_connection</b></td></tr>
+<tr class="separator:a112db4cf5282c710755df4a39b0b0bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classprojekt__grupowy_1_1database_data_set_table_adapters_1_1_table_adapter_manager.html" title="TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update ...">TableAdapterManager</a> is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios /summary&gt; </p>

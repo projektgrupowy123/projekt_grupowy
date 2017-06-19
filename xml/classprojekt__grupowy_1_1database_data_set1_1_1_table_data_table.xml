@@ -577,24 +577,35 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="39">
+      <node id="58">
         <label>global::SystemData::TypedTableBase&lt; TableRow &gt;</label>
       </node>
-      <node id="38">
+      <node id="57">
         <label>projekt_grupowy.databaseDataSet1.TableDataTable</label>
         <link refid="classprojekt__grupowy_1_1database_data_set1_1_1_table_data_table"/>
-        <childnode refid="39" relation="public-inheritance">
+        <childnode refid="58" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="41">
+      <node id="60">
         <label>global::SystemData::TypedTableBase&lt; TableRow &gt;</label>
       </node>
-      <node id="40">
+      <node id="61">
+        <label>Data</label>
+      </node>
+      <node id="59">
         <label>projekt_grupowy.databaseDataSet1.TableDataTable</label>
         <link refid="classprojekt__grupowy_1_1database_data_set1_1_1_table_data_table"/>
-        <childnode refid="41" relation="public-inheritance">
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+        <childnode refid="61" relation="usage">
+          <edgelabel>columnModel</edgelabel>
+          <edgelabel>columnPhone</edgelabel>
+          <edgelabel>columnName</edgelabel>
+          <edgelabel>columnBrand</edgelabel>
+          <edgelabel>columnCustomerID</edgelabel>
+          <edgelabel>columnSurname</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>

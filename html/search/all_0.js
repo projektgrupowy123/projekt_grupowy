@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['databasedataset',['databaseDataSet',['../classprojekt__grupowy_1_1database_data_set.html',1,'projekt_grupowy']]],
-  ['databasedataset1',['databaseDataSet1',['../classprojekt__grupowy_1_1database_data_set1.html',1,'projekt_grupowy']]],
-  ['dispose',['Dispose',['../classprojekt__grupowy_1_1_form1.html#a87f3ce54094d8d3c419685438b224c9d',1,'projekt_grupowy::Form1']]]
+  ['calculatecharacteristicvalues',['calculateCharacteristicValues',['../classprojekt__grupowy_1_1_form1.html#a0b128b4b52fb59d259f7e003e8ef5c7f',1,'projekt_grupowy::Form1']]],
+  ['components',['components',['../classprojekt__grupowy_1_1_form1.html#a99b26e40e645417a521d6c1ba36f8ad9',1,'projekt_grupowy::Form1']]]
 ];

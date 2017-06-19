@@ -54,6 +54,8 @@
     <member refid="classprojekt__grupowy_1_1_form1_1ab5913a19a98bdc0643fea340f6a534bd" kind="variable"><name>X_Array</name></member>
     <member refid="classprojekt__grupowy_1_1_form1_1a928db575518b307ea01142933b8e9d9c" kind="variable"><name>buff</name></member>
     <member refid="classprojekt__grupowy_1_1_form1_1aadadc854efc66d2f268323efd895e88f" kind="variable"><name>samples</name></member>
+    <member refid="classprojekt__grupowy_1_1_form1_1af64d1755c542533e4567b3bbf905dffb" kind="variable"><name>meanTemp</name></member>
+    <member refid="classprojekt__grupowy_1_1_form1_1aa9e548968ccad5d7e0f95689d0061795" kind="variable"><name>sumTemp</name></member>
     <member refid="classprojekt__grupowy_1_1_form1_1a99b26e40e645417a521d6c1ba36f8ad9" kind="variable"><name>components</name></member>
     <member refid="classprojekt__grupowy_1_1_form1_1a5db4cddadbff7502e1455555bee37199" kind="variable"><name>Client_groupBox</name></member>
     <member refid="classprojekt__grupowy_1_1_form1_1a8d2585264acf097eeb15046ab314c9ba" kind="variable"><name>databaseDataSet</name></member>

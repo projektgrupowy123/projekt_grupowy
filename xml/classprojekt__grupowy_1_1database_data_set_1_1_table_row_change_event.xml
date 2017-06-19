@@ -87,24 +87,62 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="50">
+      <node id="76">
         <label>projekt_grupowy.databaseDataSet.TableRowChangeEvent</label>
         <link refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_change_event"/>
-        <childnode refid="51" relation="public-inheritance">
+        <childnode refid="77" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="51">
+      <node id="77">
         <label>global::SystemEventArgs</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="52">
-        <label>projekt_grupowy.databaseDataSet.TableRowChangeEvent</label>
-        <link refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_change_event"/>
-        <childnode refid="53" relation="public-inheritance">
+      <node id="81">
+        <label>projekt_grupowy.databaseDataSet.TableRow</label>
+        <link refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+        <childnode refid="83" relation="usage">
+          <edgelabel>tableTable</edgelabel>
         </childnode>
       </node>
-      <node id="53">
+      <node id="83">
+        <label>projekt_grupowy.databaseDataSet.TableDataTable</label>
+        <link refid="classprojekt__grupowy_1_1database_data_set_1_1_table_data_table"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+        <childnode refid="80" relation="usage">
+          <edgelabel>columnModel</edgelabel>
+          <edgelabel>columnPhone</edgelabel>
+          <edgelabel>columnName</edgelabel>
+          <edgelabel>columnBrand</edgelabel>
+          <edgelabel>columnCustomerID</edgelabel>
+          <edgelabel>columnSurname</edgelabel>
+        </childnode>
+      </node>
+      <node id="78">
+        <label>projekt_grupowy.databaseDataSet.TableRowChangeEvent</label>
+        <link refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row_change_event"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+        <childnode refid="80" relation="usage">
+          <edgelabel>eventAction</edgelabel>
+        </childnode>
+        <childnode refid="81" relation="usage">
+          <edgelabel>eventRow</edgelabel>
+        </childnode>
+      </node>
+      <node id="84">
+        <label>global::SystemData::TypedTableBase&lt; TableRow &gt;</label>
+      </node>
+      <node id="82">
+        <label>global::SystemData::DataRow</label>
+      </node>
+      <node id="80">
+        <label>Data</label>
+      </node>
+      <node id="79">
         <label>global::SystemEventArgs</label>
       </node>
     </collaborationgraph>

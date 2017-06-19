@@ -488,24 +488,33 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="62">
+      <node id="99">
         <label>projekt_grupowy.databaseDataSet1TableAdapters.TableTableAdapter</label>
         <link refid="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_table_adapter"/>
-        <childnode refid="63" relation="public-inheritance">
+        <childnode refid="100" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="63">
+      <node id="100">
         <label>global::SystemComponentModel::Component</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="64">
+      <node id="103">
+        <label>Data</label>
+      </node>
+      <node id="101">
         <label>projekt_grupowy.databaseDataSet1TableAdapters.TableTableAdapter</label>
         <link refid="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_table_adapter"/>
-        <childnode refid="65" relation="public-inheritance">
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+        <childnode refid="103" relation="usage">
+          <edgelabel>_transaction</edgelabel>
+          <edgelabel>_adapter</edgelabel>
+          <edgelabel>_commandCollection</edgelabel>
+          <edgelabel>_connection</edgelabel>
         </childnode>
       </node>
-      <node id="65">
+      <node id="102">
         <label>global::SystemComponentModel::Component</label>
       </node>
     </collaborationgraph>

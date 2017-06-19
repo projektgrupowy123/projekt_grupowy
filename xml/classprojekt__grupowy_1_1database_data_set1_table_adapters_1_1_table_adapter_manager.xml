@@ -311,24 +311,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="26">
+      <node id="40">
         <label>projekt_grupowy.databaseDataSet1TableAdapters.TableAdapterManager</label>
         <link refid="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager"/>
-        <childnode refid="27" relation="public-inheritance">
+        <childnode refid="41" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="27">
+      <node id="41">
         <label>global::SystemComponentModel::Component</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="28">
+      <node id="42">
         <label>projekt_grupowy.databaseDataSet1TableAdapters.TableAdapterManager</label>
         <link refid="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager"/>
-        <childnode refid="29" relation="public-inheritance">
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+        <childnode refid="44" relation="usage">
+          <edgelabel>_tableTableAdapter</edgelabel>
+        </childnode>
+        <childnode refid="45" relation="usage">
+          <edgelabel>_connection</edgelabel>
         </childnode>
       </node>
-      <node id="29">
+      <node id="45">
+        <label>Data</label>
+      </node>
+      <node id="44">
+        <label>projekt_grupowy.databaseDataSet1TableAdapters.TableTableAdapter</label>
+        <link refid="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_table_adapter"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+        <childnode refid="45" relation="usage">
+          <edgelabel>_transaction</edgelabel>
+          <edgelabel>_adapter</edgelabel>
+          <edgelabel>_commandCollection</edgelabel>
+          <edgelabel>_connection</edgelabel>
+        </childnode>
+      </node>
+      <node id="43">
         <label>global::SystemComponentModel::Component</label>
       </node>
     </collaborationgraph>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>OBD Doctor: projekt_grupowy.databaseDataSet1TableAdapters.TableTableAdapter Class Reference</title>
+<title>ODB Doctor: projekt_grupowy.databaseDataSet1TableAdapters.TableTableAdapter Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">OBD Doctor
+   <div id="projectname">ODB Doctor
    </div>
   </td>
  </tr>
@@ -65,6 +65,8 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_table_adapter-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">projekt_grupowy.databaseDataSet1TableAdapters.TableTableAdapter Class Reference</div>  </div>
@@ -123,6 +125,36 @@ global::System.Data.SqlClient.SqlCommand []&#160;</td><td class="memItemRight" v
 <tr class="memitem:a53fd5eb3db03d603480e63f5bd36e846"><td class="memItemLeft" align="right" valign="top"><a id="a53fd5eb3db03d603480e63f5bd36e846"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>ClearBeforeFill</b><code> [get, set]</code></td></tr>
 <tr class="separator:a53fd5eb3db03d603480e63f5bd36e846"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a2cc2c746c2502cf80689b48f4e2f4ca2"><td class="memItemLeft" align="right" valign="top"><a id="a2cc2c746c2502cf80689b48f4e2f4ca2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>InitAdapter</b> ()</td></tr>
+<tr class="separator:a2cc2c746c2502cf80689b48f4e2f4ca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa738ea2c5b8b010228bc8c6d264689ef"><td class="memItemLeft" align="right" valign="top"><a id="aa738ea2c5b8b010228bc8c6d264689ef"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>InitConnection</b> ()</td></tr>
+<tr class="separator:aa738ea2c5b8b010228bc8c6d264689ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae54bd0a9b6a157ac5d92ca64efd2abcd"><td class="memItemLeft" align="right" valign="top"><a id="ae54bd0a9b6a157ac5d92ca64efd2abcd"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>InitCommandCollection</b> ()</td></tr>
+<tr class="separator:ae54bd0a9b6a157ac5d92ca64efd2abcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a334189d8928df26d15c34640fcebcafd"><td class="memItemLeft" align="right" valign="top"><a id="a334189d8928df26d15c34640fcebcafd"></a>
+global::System.Data.SqlClient.SqlDataAdapter&#160;</td><td class="memItemRight" valign="bottom"><b>_adapter</b></td></tr>
+<tr class="separator:a334189d8928df26d15c34640fcebcafd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79d3edc0e7c869078dd9b80430fffa89"><td class="memItemLeft" align="right" valign="top"><a id="a79d3edc0e7c869078dd9b80430fffa89"></a>
+global::System.Data.SqlClient.SqlConnection&#160;</td><td class="memItemRight" valign="bottom"><b>_connection</b></td></tr>
+<tr class="separator:a79d3edc0e7c869078dd9b80430fffa89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a665d37098d96bb38e30233412554d82b"><td class="memItemLeft" align="right" valign="top"><a id="a665d37098d96bb38e30233412554d82b"></a>
+global::System.Data.SqlClient.SqlTransaction&#160;</td><td class="memItemRight" valign="bottom"><b>_transaction</b></td></tr>
+<tr class="separator:a665d37098d96bb38e30233412554d82b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04120a2805e27ecfa829e6df3cb5db90"><td class="memItemLeft" align="right" valign="top"><a id="a04120a2805e27ecfa829e6df3cb5db90"></a>
+global::System.Data.SqlClient.SqlCommand []&#160;</td><td class="memItemRight" valign="bottom"><b>_commandCollection</b></td></tr>
+<tr class="separator:a04120a2805e27ecfa829e6df3cb5db90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d2b51cfc393d1367b1743eb24256c9a"><td class="memItemLeft" align="right" valign="top"><a id="a8d2b51cfc393d1367b1743eb24256c9a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_clearBeforeFill</b></td></tr>
+<tr class="separator:a8d2b51cfc393d1367b1743eb24256c9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents the connection and commands used to retrieve and save data. /summary&gt; </p>

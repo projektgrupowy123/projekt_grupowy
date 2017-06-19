@@ -106,32 +106,40 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="22">
+      <node id="35">
         <label>global::SystemCollections::Generic::IComparer&lt; global::System.Data.DataRow &gt;</label>
       </node>
-      <node id="20">
+      <node id="33">
         <label>projekt_grupowy.databaseDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer</label>
-        <childnode refid="21" relation="public-inheritance">
+        <link refid="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer"/>
+        <childnode refid="34" relation="public-inheritance">
         </childnode>
-        <childnode refid="22" relation="public-inheritance">
+        <childnode refid="35" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="21">
+      <node id="34">
         <label>object</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="25">
+      <node id="38">
         <label>global::SystemCollections::Generic::IComparer&lt; global::System.Data.DataRow &gt;</label>
       </node>
-      <node id="23">
+      <node id="39">
+        <label>Data</label>
+      </node>
+      <node id="36">
         <label>projekt_grupowy.databaseDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer</label>
-        <childnode refid="24" relation="public-inheritance">
+        <link refid="classprojekt__grupowy_1_1database_data_set1_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer"/>
+        <childnode refid="37" relation="public-inheritance">
         </childnode>
-        <childnode refid="25" relation="public-inheritance">
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+        <childnode refid="39" relation="usage">
+          <edgelabel>_relation</edgelabel>
         </childnode>
       </node>
-      <node id="24">
+      <node id="37">
         <label>object</label>
       </node>
     </collaborationgraph>

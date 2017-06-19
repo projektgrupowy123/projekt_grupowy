@@ -346,11 +346,37 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>projekt_grupowy.databaseDataSet.TableDataTable</label>
+        <link refid="classprojekt__grupowy_1_1database_data_set_1_1_table_data_table"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>columnModel</edgelabel>
+          <edgelabel>columnPhone</edgelabel>
+          <edgelabel>columnName</edgelabel>
+          <edgelabel>columnBrand</edgelabel>
+          <edgelabel>columnCustomerID</edgelabel>
+          <edgelabel>columnSurname</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>global::SystemData::TypedTableBase&lt; TableRow &gt;</label>
+      </node>
       <node id="2">
         <label>projekt_grupowy.databaseDataSet</label>
         <link refid="classprojekt__grupowy_1_1database_data_set"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_schemaSerializationMode</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>tableTable</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Data</label>
       </node>
       <node id="3">
         <label>global::SystemData::DataSet</label>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dispose',['Dispose',['../classprojekt__grupowy_1_1_form1.html#a87f3ce54094d8d3c419685438b224c9d',1,'projekt_grupowy::Form1']]]
+  ['calculatecharacteristicvalues',['calculateCharacteristicValues',['../classprojekt__grupowy_1_1_form1.html#a0b128b4b52fb59d259f7e003e8ef5c7f',1,'projekt_grupowy::Form1']]]
 ];

@@ -577,25 +577,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="34">
+      <node id="52">
         <label>projekt_grupowy.databaseDataSet.TableDataTable</label>
         <link refid="classprojekt__grupowy_1_1database_data_set_1_1_table_data_table"/>
-        <childnode refid="35" relation="public-inheritance">
+        <childnode refid="53" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="35">
+      <node id="53">
         <label>global::SystemData::TypedTableBase&lt; TableRow &gt;</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="36">
+      <node id="54">
         <label>projekt_grupowy.databaseDataSet.TableDataTable</label>
         <link refid="classprojekt__grupowy_1_1database_data_set_1_1_table_data_table"/>
-        <childnode refid="37" relation="public-inheritance">
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+        <childnode refid="56" relation="usage">
+          <edgelabel>columnModel</edgelabel>
+          <edgelabel>columnPhone</edgelabel>
+          <edgelabel>columnName</edgelabel>
+          <edgelabel>columnBrand</edgelabel>
+          <edgelabel>columnCustomerID</edgelabel>
+          <edgelabel>columnSurname</edgelabel>
         </childnode>
       </node>
-      <node id="37">
+      <node id="55">
         <label>global::SystemData::TypedTableBase&lt; TableRow &gt;</label>
+      </node>
+      <node id="56">
+        <label>Data</label>
       </node>
     </collaborationgraph>
     <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="280" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="280" bodyend="613"/>

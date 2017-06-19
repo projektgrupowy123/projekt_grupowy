@@ -254,25 +254,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="46">
+      <node id="69">
         <label>projekt_grupowy.databaseDataSet.TableRow</label>
         <link refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row"/>
-        <childnode refid="47" relation="public-inheritance">
+        <childnode refid="70" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="47">
+      <node id="70">
         <label>global::SystemData::DataRow</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="48">
+      <node id="71">
         <label>projekt_grupowy.databaseDataSet.TableRow</label>
         <link refid="classprojekt__grupowy_1_1database_data_set_1_1_table_row"/>
-        <childnode refid="49" relation="public-inheritance">
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+        <childnode refid="73" relation="usage">
+          <edgelabel>tableTable</edgelabel>
         </childnode>
       </node>
-      <node id="49">
+      <node id="73">
+        <label>projekt_grupowy.databaseDataSet.TableDataTable</label>
+        <link refid="classprojekt__grupowy_1_1database_data_set_1_1_table_data_table"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+        <childnode refid="75" relation="usage">
+          <edgelabel>columnModel</edgelabel>
+          <edgelabel>columnPhone</edgelabel>
+          <edgelabel>columnName</edgelabel>
+          <edgelabel>columnBrand</edgelabel>
+          <edgelabel>columnCustomerID</edgelabel>
+          <edgelabel>columnSurname</edgelabel>
+        </childnode>
+      </node>
+      <node id="74">
+        <label>global::SystemData::TypedTableBase&lt; TableRow &gt;</label>
+      </node>
+      <node id="72">
         <label>global::SystemData::DataRow</label>
+      </node>
+      <node id="75">
+        <label>Data</label>
       </node>
     </collaborationgraph>
     <location file="projekt_grupowy/databaseDataSet.Designer.cs" line="618" column="1" bodyfile="projekt_grupowy/databaseDataSet.Designer.cs" bodystart="618" bodyend="779"/>
